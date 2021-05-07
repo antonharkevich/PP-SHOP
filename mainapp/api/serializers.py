@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from ..models import Category, BeerProduct
+from ..models import Category, BeerProduct, Customer, Order
 
 
 class CategorySerializer(serializers.ModelSerializer):
@@ -34,4 +34,21 @@ class BeerProductSerializer(BaseProductSerializer, serializers.ModelSerializer):
 
     class Meta:
         model = BeerProduct
+        fields = '__all__'
+
+
+
+class OrderSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Order
+        fields = '__all__'
+
+
+class CustomerSerializer(serializers.ModelSerializer):
+
+    orders = OrderSerializer(many=True)
+
+    class Meta:
+        model = Customer
         fields = '__all__'

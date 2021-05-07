@@ -1,8 +1,17 @@
 from django.urls import path
 
-from .api_views import CategoryListAPIView, BeerProductListAPIView
+from .api_views import (
+    CategoryAPIView, 
+    BeerProductListAPIView, 
+    BeerProductDetailAPIView, 
+    CustomersListAPIView
+)
+
 
 urlpatterns = [
-    path('categories/', CategoryListAPIView.as_view(), name='categories'),
-    path('beer/', BeerProductListAPIView.as_view(), name='beer'),
+    path('categories/<str:id>/', CategoryAPIView.as_view(), name='categories_list'),
+    path('customers/', CustomersListAPIView.as_view(), name='customers_list'),
+    path('beer/', BeerProductListAPIView.as_view(), name='beer_list'),
+    path('beer/<str:id>/', BeerProductDetailAPIView.as_view(), name='beer_detail'),
+
 ]
