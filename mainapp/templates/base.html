@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Shop Homepage - Start Bootstrap Template</title>
+  <title>Магазин ПП продуктов</title>
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -34,6 +34,34 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+              <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expended="false">
+                Категории
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                {% for category in categories %}
+                <a class="dropdown-item" href="{{ category.url }}">{{ category.name }}</a>
+                {% endfor %}
+              </div>
+          </li>
+          {% if not request.user.is_authenticated %}
+          <li>
+            <a class="nav-link text-light" href="{% url 'login' %}">Авторизация</a>
+          </li>
+          <li>
+            <a class="nav-link text-light" href="{% url 'registration' %}">Регистрация</a>
+          </li>
+          {% endif %}
+           <li class="nav-item">
+             {% if request.user.is_authenticated %}
+             <span class="navbar text text-light">Здравствуйте, <span class="badge badge-danger">
+             <a style="text-decoration: none; font-size:14px; color:white;" href="{% url 'profile' %}">{{ request.user.username }}</a>
+            </span> | <a style="text-decoration: none; font-size:14px; color:white;" href="{% url 'logout' %}">Выйти</a></span>
+             {% endif %}
+           </li>
+        </ul>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="{% url 'cart' %}">Корзина: <span class="badge badge-pill badge-danger">{{ cart.products.count }}</span></a>
@@ -51,11 +79,7 @@
       <div class="col-lg-3">
 
         <h1 class="my-4">Магазин ПиццаПиво</h1>
-        <div class="list-group">
-          {% for category in categories %}
-          <a href="{{ category.url }}" class="list-group-item">{{ category.name }} ({{ category.count }})</a>
-          {% endfor %}
-        </div>
+
 
       </div>
       <!-- /.col-lg-3 -->
@@ -80,13 +104,13 @@
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-              <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="First slide">
+              <img class="d-block img-fluid" src="https://lh3.googleusercontent.com/proxy/f8uE7Tcz65oCUW1Hq94h3hPiggDlZuzFJ_ASqRiLAcPdzQYwuhFLzz4HcuGIIM-guY49pCSgV6dpT6Ofag7UeaWP7Tb6D4o" alt="First slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Second slide">
+              <img class="d-block img-fluid" src="https://turboportal.net/uploads/posts/2014-04/1396941120__.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Third slide">
+              <img class="d-block img-fluid" src="https://www.meme-arsenal.com/memes/b532a01e78fd8ac51909090252ccb049.jpg" alt="Third slide">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

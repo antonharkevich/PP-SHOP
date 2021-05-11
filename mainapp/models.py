@@ -1,3 +1,4 @@
+
 from django.db import models
 from django.contrib.auth import get_user_model
 from django.contrib.contenttypes.models import ContentType
@@ -178,7 +179,7 @@ class Cart(models.Model):
 
 class Customer(models.Model):
 
-    user = models.ForeignKey(User, verbose_name="Пользователь", on_delete=models.CASCADE)
+    user = models.OneToOneField(User, verbose_name="Пользователь", primary_key=True, on_delete=models.CASCADE)
     phone = models.CharField(max_length=20,verbose_name="Номер телефона", null=True, blank=True)
     address = models.CharField(max_length=255,verbose_name="Адрес", null=True, blank=True)
     orders = models.ManyToManyField("Order", blank=True, related_name="related_customer", verbose_name="Заказы покупателя")
@@ -235,7 +236,7 @@ class Order(models.Model):
         (BUYING_TYPE_DELIVERY, 'Доставка')
     )
 
-    customer = models.ForeignKey(Customer, verbose_name='Покупатель', related_name="related_orders", on_delete=models.CASCADE)
+    customer = models.ForeignKey('Customer', verbose_name='Покупатель', related_name="related_orders", on_delete=models.CASCADE)
     first_name = models.CharField(max_length=255, verbose_name='Имя')
     last_name = models.CharField(max_length=255, verbose_name='Фамилия')
     phone = models.CharField(max_length=20, verbose_name='Телефон')

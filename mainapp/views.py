@@ -1,5 +1,7 @@
 import stripe
 
+from django.contrib.auth import authenticate, login
+from django.contrib.auth.models import User
 from django.db import transaction 
 from django.shortcuts import render
 from django.contrib.contenttypes.models import ContentType
@@ -9,7 +11,7 @@ from django.http import HttpResponseRedirect, JsonResponse
 
 from .models import PizzaProduct, BeerProduct, Category, LatestProducts, Customer, Cart, CartProduct, Order
 from .mixins import CategoryDetailMixin, CartMixin
-from .forms import OrderForm 
+from .forms import OrderForm, LoginForm, RegistrationForm
 from .utils import recalc_cart
 
 class BaseView(CartMixin, View):
@@ -72,17 +74,20 @@ class CategoryDetailView(CartMixin, CategoryDetailMixin, DetailView):
 class AddToCartView(CartMixin, View):
 
     def get(self, request, *args, **kwargs):
-        ct_model, product_slug = kwargs.get('ct_model'), kwargs.get('slug')
-        content_type = ContentType.objects.get(model=ct_model)
-        product = content_type.model_class().objects.get(slug=product_slug)
-        cart_product, created = CartProduct.objects.get_or_create(
-            user=self.cart.owner, cart=self.cart, content_type=content_type, object_id=product.id
-        )
-        if created:
-            self.cart.products.add(cart_product)
-        recalc_cart(self.cart)
-        messages.add_message(request, messages.INFO, "Товар успешно добавлен")
-        return HttpResponseRedirect('/cart/')
+        if request.user.is_authenticated:
+            ct_model, product_slug = kwargs.get('ct_model'), kwargs.get('slug')
+            content_type = ContentType.objects.get(model=ct_model)
+            product = content_type.model_class().objects.get(slug=product_slug)
+            cart_product, created = CartProduct.objects.get_or_create(
+                user=self.cart.owner, cart=self.cart, content_type=content_type, object_id=product.id
+            )
+            if created:
+                self.cart.products.add(cart_product)
+            recalc_cart(self.cart)
+            messages.add_message(request, messages.INFO, "Товар успешно добавлен")
+            return HttpResponseRedirect('/cart/')
+        else:
+            return HttpResponseRedirect('/login/')
 
 class DeleteFromCartView(CartMixin, View):
 
@@ -195,3 +200,68 @@ class PayedOnlineOrderView(CartMixin, View):
         new_order.save()
         customer.orders.add(new_order)
         return JsonResponse({"status": "payed"})
+
+
+class LoginView(CartMixin, View):
+
+    def get(self, request, *args, **kwargs):
+        form = LoginForm(request.POST or None)
+        categories = Category.objects.get_categories_for_left_sidebar()
+        context = {'form': form, 'categories': categories, 'cart': self.cart}
+        return render(request, 'login.html', context)
+
+    def post(self, request, *args, **kwargs):
+        form = LoginForm(request.POST or None)
+        if form.is_valid():
+            username = form.cleaned_data['username']
+            password = form.cleaned_data['password']
+            user = User.objects.get(username=username)
+            if user.check_password(password):
+                login(request, user)
+                return HttpResponseRedirect('/')
+        context = {'form': form,'cart': self.cart}
+        return render(request, 'login.html', context)
+
+
+class RegistrationView(CartMixin, View):
+
+    def get(self, request, *args, **kwargs):
+        form = RegistrationForm(request.POST or None)
+        categories = Category.objects.get_categories_for_left_sidebar()
+        context = {'form':form, 'categories':categories, 'cart':self.cart}
+        return render(request, 'registration.html', context)
+
+    def post(self, request, *args, **kwargs):
+        form = RegistrationForm(request.POST or None)
+        if form.is_valid():
+            new_user =  form.save(commit=False)
+            new_user.username = form.cleaned_data['username']
+            new_user.email = form.cleaned_data['email']
+            new_user.last_name = form.cleaned_data['last_name']
+            new_user.save()
+            new_user.set_password(form.cleaned_data['password'])
+            new_user.save()
+            Customer.objects.create(
+                user=new_user,
+                phone=form.cleaned_data['phone'],
+                address=form.cleaned_data['address']
+            )
+            user = authenticate(username=form.cleaned_data['username'], password=form.cleaned_data['password'])
+            login(request, user)
+            return HttpResponseRedirect('/')
+        context = {'form': form,'cart': self.cart}
+        return render(request, 'registration.html', context)
+
+
+class ProfileView(CartMixin, View):
+
+
+    def get(self, request, *args, **kwargs):
+        customer = Customer.objects.get(user=request.user)
+        orders = Order.objects.filter(customer=customer).order_by('-created_at')
+        categories = Category.objects.get_categories_for_left_sidebar()
+        return render(
+            request,
+            'profile.html',
+            {'orders':orders,'cart':self.cart, 'categories': categories}
+        )

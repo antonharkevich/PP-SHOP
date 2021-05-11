@@ -1,7 +1,6 @@
 from rest_framework import serializers
 
-from ..models import Category, BeerProduct, Customer, Order
-
+from ..models import Category, BeerProduct, Customer, User, CartProduct, Cart, PizzaProduct, Order
 
 class CategorySerializer(serializers.ModelSerializer):
 
@@ -15,6 +14,22 @@ class CategorySerializer(serializers.ModelSerializer):
         ]
 
 
+
+class UserSerializer(serializers.ModelSerializer):
+
+    first_name = serializers.CharField()
+    last_name = serializers.CharField()
+    username = serializers.CharField(required=True)
+    email = serializers.CharField(required=True)
+    
+
+    class Meta:
+        model = User
+        fields = [
+            'id', 'first_name', 'last_name', 'username', 'email'
+        ]
+
+
 class BaseProductSerializer:
 
     category = serializers.PrimaryKeyRelatedField(queryset=Category.objects)
@@ -23,6 +38,7 @@ class BaseProductSerializer:
     image = serializers.ImageField(required=True)
     description = serializers.CharField(required=False)
     price = serializers.DecimalField(max_digits=9, decimal_places=2, required=True)
+    
 
 
 class BeerProductSerializer(BaseProductSerializer, serializers.ModelSerializer):
@@ -35,10 +51,26 @@ class BeerProductSerializer(BaseProductSerializer, serializers.ModelSerializer):
     class Meta:
         model = BeerProduct
         fields = '__all__'
+    
+
+        
+
+
+class PizzaProductSerializer(BaseProductSerializer, serializers.ModelSerializer):
+
+    size = serializers.CharField(required=True)
+    board = serializers.CharField(required=True) 
+    dough = serializers.CharField(required=True)
+    vegetarian = serializers.BooleanField(required=True)
+
+    class Meta:
+        model = PizzaProduct
+        fields = '__all__'
 
 
 
 class OrderSerializer(serializers.ModelSerializer):
+
 
     class Meta:
         model = Order
@@ -48,7 +80,35 @@ class OrderSerializer(serializers.ModelSerializer):
 class CustomerSerializer(serializers.ModelSerializer):
 
     orders = OrderSerializer(many=True)
-
+    user = UserSerializer()
+    
     class Meta:
         model = Customer
+        fields = '__all__'
+    
+    def create(self, validated_data):
+        user_data = validated_data.pop('user')
+        orders_data = validated_data.pop('orders')
+        user = User.objects.get(username=user_data["username"])
+        customer = Customer.objects.create(user=user, **validated_data)
+        return customer
+    
+    def update(self, instance, validated_data):
+        instance.phone = validated_data.get('phone', instance.phone)
+        instance.address = validated_data.get('address', instance.address)
+        instance.save()
+        return instance
+
+
+class CartSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Cart
+        fields = '__all__'
+
+
+class CartProductSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = CartProduct
         fields = '__all__'
