@@ -1,7 +1,7 @@
 from django import forms
 from django.contrib.auth.models import User
 from .models import Order
-
+from .custom_logging import logger
 
 class OrderForm(forms.ModelForm):
 
@@ -28,13 +28,16 @@ class LoginForm(forms.ModelForm):
         self.fields["password"].label = "Пароль"
 
     def clean(self):
+        logger.info('Проверка авторизации пользователя')
         username = self.cleaned_data['username']
         password = self.cleaned_data['password']
         if not User.objects.filter(username=username).exists():
+            logger.error(f"Пользователь с логином {username} не найден в системе.")
             raise forms.ValidationError(f"Пользоватеь с логином {username} не найден в системе.")
         user = User.objects.filter(username=username).first()
         if user:
             if not user.check_password(password):
+                logger.error(f"Для пользователя с логином {username} введен неверный пароль")
                 raise forms.ValidationError("Неверный пароль")
         return self.cleaned_data
 
@@ -65,24 +68,31 @@ class RegistrationForm(forms.ModelForm):
         self.fields['email'].label = "Электронная почта"
 
     def clean_email(self):
+        logger.info('Проверка почты при регистрации пользователя')
         email = self.cleaned_data['email']
         domain = email.split('.')[-1]
         if domain in ['com', 'net']:
+            logger.error(f'Регистрация для домена "{domain}" невозможна')
             raise forms.ValidationError(f'Регистрация для домена "{domain}" невозможна')
         if User.objects.filter(email=email).exists():
+            logger.error(f"Данный почтовый адрес {email} уже зарегестрирован в системе")
             raise forms.ValidationError(f"Данный почтовый адрес уже зарегестрирован в системе")
         return email
     
     def clean_username(self):
+        logger.info('Проверка логина при регистрации пользователя')
         username = self.cleaned_data['username']
         if User.objects.filter(username=username).exists():
+            logger.error(f'Имя {username} занято')
             raise forms.ValidationError(f'Имя {username} занято')
         return username
     
     def clean(self):
+        logger.info('Проверка пароля при регистрации пользователя')
         password = self.cleaned_data['password']
         confirm_password = self.cleaned_data['confirm_password']
         if password != confirm_password:
+            logger.error('Пароли не совпадают!')
             raise forms.ValidationError('Пароли не совпадают!')
         return self.cleaned_data
 

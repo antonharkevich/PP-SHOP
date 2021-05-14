@@ -1,6 +1,7 @@
 from rest_framework import serializers
 
 from ..models import Category, BeerProduct, Customer, User, CartProduct, Cart, PizzaProduct, Order
+from ..custom_logging import logger
 
 class CategorySerializer(serializers.ModelSerializer):
 
@@ -87,6 +88,7 @@ class CustomerSerializer(serializers.ModelSerializer):
         fields = '__all__'
     
     def create(self, validated_data):
+        logger.warning('Создание нового объекта customer через api')
         user_data = validated_data.pop('user')
         orders_data = validated_data.pop('orders')
         user = User.objects.get(username=user_data["username"])
@@ -94,6 +96,7 @@ class CustomerSerializer(serializers.ModelSerializer):
         return customer
     
     def update(self, instance, validated_data):
+        logger.warning('Изменение объекта customer через api')
         instance.phone = validated_data.get('phone', instance.phone)
         instance.address = validated_data.get('address', instance.address)
         instance.save()

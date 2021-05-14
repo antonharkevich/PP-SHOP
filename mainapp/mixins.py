@@ -1,6 +1,6 @@
 from django.views.generic.detail import SingleObjectMixin, View
 from .models import Category, Cart, Customer, PizzaProduct, BeerProduct
-
+from .custom_logging import logger
 
 class CategoryDetailMixin(SingleObjectMixin):
 
@@ -10,6 +10,7 @@ class CategoryDetailMixin(SingleObjectMixin):
     }
 
     def get_context_data(self, **kwargs):
+        logger.info('Использование CategoryDetailMixin')
         if isinstance(self.get_object(), Category):
             model = self.CATEGORY_SLUG2PRODUCT_MODEL[self.get_object().slug]
             context = super().get_context_data(**kwargs)
@@ -25,6 +26,8 @@ class CategoryDetailMixin(SingleObjectMixin):
 class CartMixin(View):
 
     def dispatch(self, request, *args, **kwargs):
+        user = request.user
+        logger.info(f"Использование CartMixin пользователем {user}")
         if request.user.is_authenticated:
             customer = Customer.objects.filter(user=request.user).first()
             if not customer:
@@ -35,6 +38,7 @@ class CartMixin(View):
             if not cart:
                 cart = Cart.objects.create(owner=customer)
         else:
+            logger.warning('Покупатель не авторизирован')
             cart = Cart.objects.filter(for_anonymous_user=True).first()
             if not cart:
                 cart = Cart.objects.create(for_anonymous_user=True)

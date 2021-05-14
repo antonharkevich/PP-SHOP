@@ -9,6 +9,7 @@ from django.core.files.uploadedfile import InMemoryUploadedFile
 import sys
 from django.urls import reverse
 from django.utils import timezone
+from .custom_logging import logger
 
 User = get_user_model()
 # Create your models here.
@@ -27,11 +28,13 @@ User = get_user_model()
 # /categories/pizza
 
 def get_models_for_count(*model_names):
+    logger.debug('Использование функции подсчёта кол-ва товара')
     return [models.Count(model_name) for model_name in model_names]
 
 
 
 def get_product_url(obj, viewname):
+    logger.debug('Использование получения урла продукта')
     ct_model = obj.__class__._meta.model_name
     return reverse(viewname, kwargs={'ct_model' : ct_model, 'slug': obj.slug})
 
@@ -51,6 +54,7 @@ class LatestProductManager:
 
     @staticmethod
     def get_products_for_main_page(*args, **kwargs):
+        logger.debug('Взятие продуктов для главной страницф')
         with_respect_to = kwargs.get('with_respect_to')
         products = []
         ct_models = ContentType.objects.filter(model__in=args)
@@ -81,6 +85,7 @@ class CategoryManager(models.Manager):
         return super().get_queryset()
     
     def get_categories_for_left_sidebar(self):
+        logger.debug('Использование функции get_categories_for_left_sidebar')
         models = get_models_for_count('pizzaproduct', 'beerproduct')
         qs = list(self.get_queryset().annotate(*models))
         data = [
@@ -113,7 +118,7 @@ class Product(models.Model):
 
     category = models.ForeignKey(Category, verbose_name='Категория', on_delete=models.CASCADE)
     title = models.CharField(max_length=255, verbose_name="Наименование")
-    slug = models.SlugField(unique=True) #endpoint
+    slug = models.SlugField(unique=True)
     image = models.ImageField()
     description = models.TextField(verbose_name="Описание")
     price = models.DecimalField(max_digits=9, decimal_places=2, verbose_name="Цена")
@@ -125,15 +130,19 @@ class Product(models.Model):
         return self.__class__.__name__.lower()
     
     def save(self, *args, **kwargs):
+        logger.info('Сохранение нового продукта')
         image = self.image
         img = Image.open(image)
         min_height, min_width = self.MIN_RESOLUTION 
         max_height, max_width = self.MAX_RESOLUTION
         if image.size > self.MAX_IMAGE_SIZE:
+            logger.error('Размер изображения не должен быть больше, чем 3мб!')
             raise MaxFileSizeErrorException('Размер изображения не должен быть больше, чем 3мб!') 
         if(img.width < min_width or img.height < min_height):
+            logger.error("Разрешение изображения меньше минимального ")
             raise MinResolutionErrorException("Разрешение изображения меньше минимального ")
         if(img.width > max_width or img.height > max_height):
+            logger.warning("Разрешение изображения больше максимального ")
             image = self.image
             img = Image.open(image)
             new_img = img.convert("RGB")
@@ -161,6 +170,7 @@ class CartProduct(models.Model):
         return "Продукт: {} (для корзины)".format(self.content_object.title)
     
     def save(self, *args, **kwargs):
+        logger.debug('Подсчёт финальной цены продукта в корзине')
         self.final_price = self.qty * self.content_object.price
         super().save(*args, **kwargs)
 

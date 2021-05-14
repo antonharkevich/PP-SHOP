@@ -14,9 +14,14 @@ from .mixins import CategoryDetailMixin, CartMixin
 from .forms import OrderForm, LoginForm, RegistrationForm
 from .utils import recalc_cart
 
+from .custom_logging import logger
+
+
+
 class BaseView(CartMixin, View):
 
     def get(self, request, *args, **kwargs):
+        
         categories = Category.objects.get_categories_for_left_sidebar()
         products = LatestProducts().objects.get_products_for_main_page('pizzaproduct', 'beerproduct', with_respect_to='pizzaproduct')
         context = {
@@ -24,6 +29,9 @@ class BaseView(CartMixin, View):
             'products': products,
             'cart' : self.cart,
         }
+        user = request.user
+        logger.info('Загрузка base_view пользователем {}'.format(str(user)))
+        logger.debug('Тестовое сообщение')
         return render(request, 'base.html', context)
 
 
@@ -38,17 +46,18 @@ class ProductDetailView(CartMixin, CategoryDetailMixin, DetailView):
     }
 
     def dispatch(self, request, *args, **kwargs):
+        user = request.user
+        logger.info(f'Использование ProductDetailView пользоватлем {user}')
         self.model = self.CT_MODEL_MODEL_CLASS[kwargs['ct_model']] 
         self.queryset = self.model._base_manager.all()
         return super().dispatch(request, *args, **kwargs)
 
-    # model = Model
-    # queryset = Model.objects.all() 
     context_object_name = 'product'
     template_name = 'product_detail.html'
     slug_url_kwarg = 'slug'
 
     def get_context_data(self, **kwargs):
+        logger.info(f'Использование ProductDetailView get_context_data')
         context = super().get_context_data(**kwargs)
         context['ct_model'] = self.model._meta.model_name
         context['cart'] = self.cart
@@ -65,6 +74,7 @@ class CategoryDetailView(CartMixin, CategoryDetailMixin, DetailView):
     slug_url_kwarg = 'slug'
 
     def get_context_data(self, **kwargs):
+        logger.info(f'Использование CategoryDetailView get_context_data')
         context = super().get_context_data(**kwargs)
         context['ct_model'] = self.model._meta.model_name
         context['cart'] = self.cart
@@ -74,6 +84,8 @@ class CategoryDetailView(CartMixin, CategoryDetailMixin, DetailView):
 class AddToCartView(CartMixin, View):
 
     def get(self, request, *args, **kwargs):
+        user = request.user
+        logger.info(f'Использование AddToCartView пользоватлем {user}')
         if request.user.is_authenticated:
             ct_model, product_slug = kwargs.get('ct_model'), kwargs.get('slug')
             content_type = ContentType.objects.get(model=ct_model)
@@ -87,11 +99,14 @@ class AddToCartView(CartMixin, View):
             messages.add_message(request, messages.INFO, "Товар успешно добавлен")
             return HttpResponseRedirect('/cart/')
         else:
+            logger.warning('Пользователь не автоизован')
             return HttpResponseRedirect('/login/')
 
 class DeleteFromCartView(CartMixin, View):
 
     def get(self, request, *args, **kwargs):
+        user = request.user
+        logger.info(f'Использование DeleteFromCartView пользоватлем {user}')
         ct_model, product_slug = kwargs.get('ct_model'), kwargs.get('slug')
         content_type = ContentType.objects.get(model=ct_model)
         product = content_type.model_class().objects.get(slug=product_slug)
@@ -107,6 +122,8 @@ class DeleteFromCartView(CartMixin, View):
 class ChangeQTYView(CartMixin, View):
 
     def post(self, request, *args, **kwargs):
+        user = request.user
+        logger.info(f'Использование ChangeQTYView пользоватлем {user}')
         ct_model, product_slug = kwargs.get('ct_model'), kwargs.get('slug')
         content_type = ContentType.objects.get(model=ct_model)
         product = content_type.model_class().objects.get(slug=product_slug)
@@ -123,6 +140,8 @@ class ChangeQTYView(CartMixin, View):
 class CartView(CartMixin, View):
 
     def get(self, request, *args, **kwargs):
+        user = request.user
+        logger.info(f'Использование CartView пользоватлем {user}')
         categories = Category.objects.get_categories_for_left_sidebar()
         context = {
             'cart': self.cart,
@@ -134,6 +153,8 @@ class CartView(CartMixin, View):
 class CheckoutView(CartMixin, View):
 
     def get(self, request, *args, **kwargs):
+        user = request.user
+        logger.info(f'Использование CheckOutView пользоватлем {user}')
         stripe.api_key = "sk_test_51InP7sBvCXw0ZFF356F6w3KqPuuquPMKwpfsVkFV9Rhqlq3RMCU2v476kl22BfFNbZ0efs0KTgcuw4gF8w1uV9NQ00Ajonf7zm"
 
         intent = stripe.PaymentIntent.create(
@@ -157,6 +178,8 @@ class MakeOrderView(CartMixin, View):
 
     @transaction.atomic
     def post(self, request, *args, **kwargs):
+        user = request.user
+        logger.info(f'Использование MakeOrderView пользоватлем {user}')
         form = OrderForm(request.POST or None)
         customer = Customer.objects.get(user=request.user)
         if form.is_valid():
@@ -177,6 +200,7 @@ class MakeOrderView(CartMixin, View):
             customer.orders.add(new_order)
             messages.add_message(request, messages.INFO, "Спасибо за заказ! Мы с вами свяжемся!")
             return HttpResponseRedirect('/')
+        logger.error('Форма заказа не валидна')
         return HttpResponseRedirect('/checkout/')
 
 
@@ -184,6 +208,8 @@ class PayedOnlineOrderView(CartMixin, View):
 
     @transaction.atomic
     def post(self, request, *args, **kwargs):
+        user = request.user
+        logger.info(f'Использование PayedOnlineOrderView пользоватлем {user}')
         customer = Customer.objects.get(user=request.user)
         new_order = Order()
         new_order.customer = customer
@@ -205,6 +231,7 @@ class PayedOnlineOrderView(CartMixin, View):
 class LoginView(CartMixin, View):
 
     def get(self, request, *args, **kwargs):
+        logger.info(f'Использование LoginView')
         form = LoginForm(request.POST or None)
         categories = Category.objects.get_categories_for_left_sidebar()
         context = {'form': form, 'categories': categories, 'cart': self.cart}
@@ -219,6 +246,10 @@ class LoginView(CartMixin, View):
             if user.check_password(password):
                 login(request, user)
                 return HttpResponseRedirect('/')
+            else:
+                logger.warning(f'Для пользователя {user} введён неправильный пароль')
+        else:
+            logger.warning('Форма авторизации не валидна')
         context = {'form': form,'cart': self.cart}
         return render(request, 'login.html', context)
 
@@ -226,6 +257,7 @@ class LoginView(CartMixin, View):
 class RegistrationView(CartMixin, View):
 
     def get(self, request, *args, **kwargs):
+        logger.info(f'Использование RegistrationView')
         form = RegistrationForm(request.POST or None)
         categories = Category.objects.get_categories_for_left_sidebar()
         context = {'form':form, 'categories':categories, 'cart':self.cart}
@@ -248,7 +280,9 @@ class RegistrationView(CartMixin, View):
             )
             user = authenticate(username=form.cleaned_data['username'], password=form.cleaned_data['password'])
             login(request, user)
+            logger.info(f'Зарегистрирован пользователь {user}')
             return HttpResponseRedirect('/')
+        logger.warning('Форма регистрации не валидна')
         context = {'form': form,'cart': self.cart}
         return render(request, 'registration.html', context)
 
@@ -257,6 +291,8 @@ class ProfileView(CartMixin, View):
 
 
     def get(self, request, *args, **kwargs):
+        user = request.user
+        logger.info(f'Использование ProfileView пользоватлем {user}')
         customer = Customer.objects.get(user=request.user)
         orders = Order.objects.filter(customer=customer).order_by('-created_at')
         categories = Category.objects.get_categories_for_left_sidebar()
