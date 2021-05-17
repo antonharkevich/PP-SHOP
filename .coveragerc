@@ -1,0 +1,7 @@
+[run]
+omit = */migrations/*
+       pizza_shop/asgi.py
+       pizza_shop/wsgi.py
+       pizza_shop/__init__.py
+       manage.py
+       */__init__.py

@@ -25,8 +25,8 @@ class CategoryPagination(PageNumberPagination):
     max_page_size = 10
 
     def get_paginated_response(self, data):
+        logger.info('Использование PageNumberPagination')
         return Response(OrderedDict([
-            logger.info('Использование PageNumberPagination')
             ('objects_count', self.page.paginator.count),
             ('next', self.get_next_link()),
             ('previous', self.get_previous_link()),

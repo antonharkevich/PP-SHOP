@@ -109,7 +109,7 @@ class Category(models.Model):
 
 class Product(models.Model):
 
-    MIN_RESOLUTION = (300, 300)
+    MIN_RESOLUTION = (200, 200)
     MAX_RESOLUTION = (2000, 2000)
     MAX_IMAGE_SIZE = 3145728
 
