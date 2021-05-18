@@ -250,7 +250,7 @@ class Order(models.Model):
     first_name = models.CharField(max_length=255, verbose_name='Имя')
     last_name = models.CharField(max_length=255, verbose_name='Фамилия')
     phone = models.CharField(max_length=20, verbose_name='Телефон')
-    cart = models.ForeignKey(Cart,verbose_name="Корзина", on_delete=models.CASCADE, null=True, blank=True)
+    cart = models.OneToOneField(Cart,verbose_name="Корзина", on_delete=models.CASCADE, null=True, blank=True)
     address = models.CharField(max_length=1024, verbose_name='Адрес', null=True, blank=True)
     status = models.CharField(
         max_length=100,
