@@ -11,7 +11,7 @@ from django.http import HttpResponseRedirect, JsonResponse
 
 from .models import PizzaProduct, BeerProduct, Category, LatestProducts, Customer, Cart, CartProduct, Order
 from .mixins import CategoryDetailMixin, CartMixin
-from .forms import OrderForm, LoginForm, RegistrationForm
+from .forms import OrderForm, LoginForm, RegistrationForm, PizzaAddForm, BeerAddForm
 from .utils import recalc_cart
 
 from .custom_logging import logger
@@ -301,3 +301,114 @@ class ProfileView(CartMixin, View):
             'profile.html',
             {'orders':orders,'cart':self.cart, 'categories': categories}
         )
+
+
+class PizzaAddView(CartMixin, View):
+
+    def get(self, request, *args, **kwargs):
+        logger.info(f'Использование PizzaAddView')
+        form = PizzaAddForm(request.POST, request.FILES)
+        categories = Category.objects.get_categories_for_left_sidebar()
+        context = {'form': form, 'categories': categories, 'cart': self.cart}
+        return render(request, 'pizza_add.html', context)
+
+    def post(self, request, *args, **kwargs):
+        form = PizzaAddForm(request.POST, request.FILES)
+        print(form)
+        if form.is_valid():
+            title = form.cleaned_data['title']
+            slug = form.cleaned_data['slug']
+            description = form.cleaned_data['description']
+            image = form.cleaned_data['image']
+            price = form.cleaned_data['price']
+            size = form.cleaned_data['size']
+            board = form.cleaned_data['board']
+            dough = form.cleaned_data['dough']
+            vegetarian = form.cleaned_data['vegetarian']
+            try:
+                pizzaproduct = PizzaProduct.objects.get(title=title)
+            except:
+                pizzaproduct = None
+            if pizzaproduct:
+                pizzaproduct.slug = slug
+                pizzaproduct.description = description
+                pizzaproduct.image = image
+                pizzaproduct.price = price
+                pizzaproduct.size = size
+                pizzaproduct.board = board
+                pizzaproduct.dough = dough
+                pizzaproduct.vegetarian = vegetarian
+                pizzaproduct.save()
+            else:
+                pizzaproduct = PizzaProduct.objects.create(
+                    category = Category.objects.get(name="Пицца"),
+                    title = title,
+                    slug = slug,
+                    image = image,
+                    size = size,
+                    board = board,
+                    dough = dough,
+                    vegetarian = True,
+                    description= description,
+                    price=price,
+                )
+            return HttpResponseRedirect('/category/pizza/')
+        else:
+            logger.warning('Форма добавления пиццы не валидна')
+        context = {'form': form,'cart': self.cart}
+        return render(request, 'pizza_add.html', context)
+
+
+class BeerAddView(CartMixin, View):
+
+    def get(self, request, *args, **kwargs):
+        logger.info(f'Использование BeerAddView')
+        form = BeerAddForm(request.POST, request.FILES)
+        categories = Category.objects.get_categories_for_left_sidebar()
+        context = {'form': form, 'categories': categories, 'cart': self.cart}
+        return render(request, 'beer_add.html', context)
+
+    def post(self, request, *args, **kwargs):
+        form = BeerAddForm(request.POST, request.FILES)
+        if form.is_valid():
+            title = form.cleaned_data['title']
+            slug = form.cleaned_data['slug']
+            description = form.cleaned_data['description']
+            image = form.cleaned_data['image']
+            price = form.cleaned_data['price']
+            colour = form.cleaned_data['colour']
+            alcohol_strength = form.cleaned_data['alcohol_strength']
+            filtered = form.cleaned_data['filtered']
+            grade = form.cleaned_data['grade']
+            try:
+                beerproduct = BeerProduct.objects.get(title=title)
+            except:
+                beerproduct = None
+            if beerproduct:
+                beerproduct.slug = slug
+                beerproduct.description = description
+                beerproduct.image = image
+                beerproduct.price = price
+                beerproduct.colour = colour
+                beerproduct.alcohol_strength = alcohol_strength
+                beerproduct.filtered = filtered
+                beerproduct.grade = grade
+                beerproduct.save()
+            else:
+                beerproduct = BeerProduct.objects.create(
+                    category = Category.objects.get(name="Пиво"),
+                    title = title,
+                    slug = slug,
+                    image = image,
+                    colour = colour,
+                    grade = grade,
+                    filtered = filtered,
+                    alcohol_strength = alcohol_strength,
+                    description= description,
+                    price=price,
+                )
+            return HttpResponseRedirect('/category/beer/')
+        else:
+            logger.warning('Форма добавления пива не валидна')
+        context = {'form': form,'cart': self.cart}
+        return render(request, 'beer_add.html', context)

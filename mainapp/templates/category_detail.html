@@ -25,5 +25,16 @@
     </div>
     {% endfor %}
 </div>
+{% if request.user.is_staff %}
+    {% if category.name == 'Пиво' %}
+          <li>
+            <a class="nav-link" href="{% url 'beer_add' %}">Добавление или редактирование товара категории : {{ category.name }}</a>
+          </li>
+    {% else %}
+        <li>
+          <a class="nav-link" href="{% url 'pizza_add' %}">Добавление или редактирование товара категории : {{ category.name }}</a>
+        </li>
+    {% endif %}
+{% endif %}
 
 {% endblock content %}

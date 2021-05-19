@@ -2846,3 +2846,1561 @@ Test_comment</textarea></td></tr>
 Режим DEBUG: 2021-05-18 12:09:36,072  dev  INFO: Использование CartMixin пользователем admin
 Режим DEBUG: 2021-05-18 12:09:36,081  dev  INFO: Использование CategoryDetailView get_context_data
 Режим DEBUG: 2021-05-18 12:09:36,081  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 12:48:18,698  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 12:48:18,698  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 12:48:18,741  dev  INFO: Загрузка base_view пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 12:52:03,172  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 12:52:03,173  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 12:52:03,218  dev  INFO: Загрузка base_view пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 12:52:04,779  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 12:52:04,780  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 12:52:04,796  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 12:52:04,797  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 13:01:06,653  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 13:01:06,653  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 13:01:06,673  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 13:01:06,674  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 13:01:12,970  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 13:01:12,970  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 13:01:12,979  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 13:01:17,121  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 13:01:17,122  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 13:01:17,133  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 13:01:17,289  dev  ERROR: Для пользователя с логином admin введен неверный пароль
+Режим DEBUG: 2021-05-19 13:01:17,291  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 13:01:22,668  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 13:01:22,669  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 13:01:22,682  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 13:01:22,841  dev  ERROR: Для пользователя с логином admin введен неверный пароль
+Режим DEBUG: 2021-05-19 13:01:22,842  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 13:01:25,147  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 13:01:25,147  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 13:01:25,160  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 13:01:25,482  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 13:01:25,496  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-19 13:01:30,129  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 13:01:30,138  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 13:01:30,138  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 13:01:57,981  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 13:01:57,990  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 13:01:57,990  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 13:02:19,664  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 13:02:19,673  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 13:02:19,673  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 13:03:27,288  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 13:03:27,298  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 13:03:27,298  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 13:06:36,729  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 13:06:36,737  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 13:06:36,737  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 13:06:40,423  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 13:06:40,431  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 13:06:40,431  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 13:42:54,256  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 13:42:54,267  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 13:42:54,267  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 13:42:56,941  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 13:42:56,969  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 13:42:56,969  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 13:43:04,124  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 13:43:04,129  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 13:44:32,529  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 13:44:32,540  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 13:45:37,197  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 13:45:37,207  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 13:46:10,893  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 13:46:10,904  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 13:46:50,421  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 13:46:50,505  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 13:48:19,395  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 13:48:19,430  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 13:52:10,252  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 13:52:10,310  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 13:58:45,902  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 13:58:45,948  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 13:58:53,127  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 13:58:53,162  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:00:09,470  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:00:09,516  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:02:27,971  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:02:28,021  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:02:33,595  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:03:40,516  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:03:40,607  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:03:40,668  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:03:40,675  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:03:40,676  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:04:51,738  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:04:51,746  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:04:59,062  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:04:59,070  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:05:49,998  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:05:50,039  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:05:50,072  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:05:50,082  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:05:50,082  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:05:58,409  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-19 14:05:58,410  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:05:58,417  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:05:58,418  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:07:04,488  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:07:04,495  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:07:06,940  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:07:06,955  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-19 14:07:32,060  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:07:32,067  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:07:32,067  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:07:35,933  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:07:35,942  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:07:35,942  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:17:40,179  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:17:40,184  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:17:45,722  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:17:45,734  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:18:10,859  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:18:10,865  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:18:32,944  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:18:32,949  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:19:22,799  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:19:22,805  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:19:47,993  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:19:48,000  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:20:07,031  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:20:07,041  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:21:46,685  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:21:46,690  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:22:10,484  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:22:10,505  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:22:10,506  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:22:12,922  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:22:12,927  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:22:28,728  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:22:28,736  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:22:30,983  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:22:30,993  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:22:30,993  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:22:32,338  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:22:32,345  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:22:50,064  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:22:50,072  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:22:50,072  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:22:52,019  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:22:52,032  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:23:00,029  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:23:00,039  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:23:00,040  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:23:01,066  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:23:01,071  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:23:08,290  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:23:08,306  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:23:08,306  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:23:10,163  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:23:10,176  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:23:45,781  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:23:45,847  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:23:45,877  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:23:45,886  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:23:45,886  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:23:50,950  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:23:50,957  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:24:19,296  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:24:19,305  dev  WARNING: Форма добавления пива не валидна
+Режим DEBUG: 2021-05-19 14:24:32,219  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:24:32,231  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:24:32,271  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:24:32,282  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:24:32,283  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:26:57,163  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:26:57,173  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:26:57,203  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:26:57,208  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:26:57,233  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:26:57,241  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:26:57,250  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:26:57,267  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:26:57,293  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:26:57,297  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:26:57,310  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:26:57,323  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:26:57,350  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:26:57,359  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:26:57,364  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:26:57,380  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:26:57,402  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:26:57,411  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:26:57,416  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:26:57,427  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:26:57,450  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:26:57,467  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 14:26:57,655  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:26:57,663  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:26:57,689  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:26:57,696  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 14:26:57,738  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:26:57,738  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:26:57,743  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 14:26:57,745  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 14:26:57,745  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 14:26:57,764  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:26:57,764  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:26:57,771  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:26:57,776  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:26:57,777  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:26:58,157  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:26:58,173  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:26:58,173  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:26:58,177  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:26:58,179  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:26:58,181  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:26:58,497  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:26:58,817  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:26:58,821  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:26:59,166  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:26:59,170  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:26:59,189  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:26:59,189  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:26:59,194  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:26:59,194  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:26:59,214  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:26:59,221  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:26:59,252  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:26:59,259  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:34:07,156  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:34:07,168  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:34:07,209  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:34:07,213  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:34:07,235  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:34:07,238  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:07,244  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:34:07,256  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:34:07,280  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:34:07,282  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:07,288  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:34:07,295  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:34:07,319  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:34:07,326  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:07,331  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:34:07,341  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:34:07,371  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:34:07,379  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:07,383  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:34:07,393  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:34:07,411  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:07,429  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:07,548  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:07,553  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:34:07,573  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:07,580  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 14:34:07,617  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:34:07,617  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:34:07,621  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 14:34:07,622  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 14:34:07,623  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 14:34:07,642  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:34:07,642  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:34:07,648  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:34:07,654  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:34:07,655  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:34:07,964  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:34:07,975  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:34:07,975  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:34:07,979  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:34:07,980  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:34:07,981  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:34:08,295  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:34:08,627  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:08,631  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:34:08,968  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:08,973  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:34:08,992  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:34:08,992  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:34:08,998  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:34:08,998  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:34:09,017  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:09,024  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:34:09,052  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:09,057  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:34:09,091  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:34:09,096  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:34:09,096  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:34:09,102  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:34:09,129  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:34:09,135  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:34:09,135  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:34:09,141  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:34:42,805  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:34:42,811  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:34:42,837  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:34:42,841  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:34:42,863  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:34:42,865  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:42,870  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:34:42,877  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:34:42,895  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:34:42,898  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:42,905  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:34:42,911  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:34:42,933  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:34:42,938  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:42,941  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:34:42,948  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:34:42,964  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:34:42,969  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:42,973  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:34:42,985  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:34:43,001  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:43,013  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:43,114  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:43,119  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:34:43,140  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:43,147  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 14:34:43,185  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:34:43,186  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:34:43,189  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 14:34:43,191  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 14:34:43,191  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 14:34:43,210  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:34:43,210  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:34:43,217  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:34:43,222  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:34:43,223  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:34:43,542  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:34:43,556  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:34:43,556  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:34:43,560  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:34:43,562  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:34:43,563  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:34:43,860  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:34:44,180  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:44,184  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:34:44,519  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:44,524  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:34:44,552  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:34:44,552  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:34:44,556  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:34:44,557  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:34:44,580  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:44,588  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:34:44,616  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:34:44,620  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:34:44,656  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:34:44,660  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:34:44,660  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:34:44,672  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:34:44,699  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:34:44,705  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:34:44,705  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:34:44,710  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:36:20,458  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:36:20,472  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:36:20,522  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:36:20,531  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:36:20,575  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:36:20,581  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:36:20,590  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:36:20,605  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:36:20,649  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:36:20,655  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:36:20,666  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:36:20,683  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:36:20,724  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:36:20,751  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:36:20,759  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:36:20,783  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:36:20,817  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:36:20,832  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:36:20,838  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:36:20,854  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:36:20,881  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:36:20,907  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 14:36:21,095  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:36:21,103  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:36:21,134  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:36:21,142  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 14:36:21,207  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:36:21,208  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:36:21,215  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 14:36:21,217  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 14:36:21,218  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 14:36:21,249  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:36:21,250  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:36:21,263  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:36:21,276  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:36:21,279  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:36:21,636  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:36:21,650  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:36:21,650  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:36:21,655  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:36:21,657  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:36:21,659  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:36:21,996  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:36:22,352  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:36:22,356  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:36:22,713  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:36:22,717  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:36:22,736  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:36:22,736  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:36:22,742  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:36:22,742  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:36:22,761  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:36:22,766  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:36:22,798  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:36:22,803  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:36:22,834  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:36:22,838  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:36:22,838  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:36:22,845  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:36:22,964  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:36:22,970  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:36:22,970  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:36:22,980  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:37:18,984  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:37:18,993  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:37:19,026  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:37:19,032  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:37:19,057  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:37:19,063  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:37:19,071  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:37:19,083  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:37:19,118  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:37:19,124  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:37:19,132  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:37:19,144  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:37:19,183  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:37:19,191  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:37:19,195  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:37:19,207  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:37:19,228  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:37:19,235  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:37:19,238  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:37:19,247  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:37:19,262  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:37:19,275  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 14:37:19,397  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:37:19,404  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:37:19,424  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:37:19,429  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 14:37:19,478  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:37:19,478  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:37:19,483  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 14:37:19,486  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 14:37:19,487  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 14:37:19,520  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:37:19,521  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:37:19,532  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:37:19,544  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:37:19,546  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:37:19,916  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:37:19,941  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:37:19,942  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:37:19,948  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:37:19,951  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:37:19,954  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:37:20,269  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:37:20,633  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:37:20,640  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:37:21,026  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:37:21,030  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:37:21,048  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:37:21,048  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:37:21,054  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:37:21,055  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:37:21,073  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:37:21,078  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:37:21,110  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:37:21,116  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:37:21,147  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:37:21,151  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:37:21,151  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:37:21,158  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:37:21,190  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:37:21,196  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:37:21,196  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:37:21,201  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:38:18,815  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:38:18,824  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:38:18,858  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:38:18,864  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:38:18,892  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:38:18,896  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:38:18,901  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:38:18,910  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:38:18,935  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:38:18,938  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:38:18,945  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:38:18,955  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:38:18,973  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:38:18,978  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:38:18,982  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:38:18,996  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:38:19,018  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:38:19,024  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:38:19,028  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:38:19,037  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:38:19,054  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:38:19,069  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 14:38:19,179  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:38:19,185  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:38:19,206  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:38:19,212  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 14:38:19,249  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:38:19,249  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:38:19,254  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 14:38:19,258  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 14:38:19,259  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 14:38:19,282  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:38:19,282  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:38:19,289  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:38:19,294  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:38:19,296  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:38:19,617  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:38:19,629  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:38:19,630  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:38:19,635  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:38:19,637  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:38:19,639  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:38:19,989  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:38:20,335  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:38:20,339  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:38:20,676  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:38:20,681  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:38:20,700  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:38:20,700  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:38:20,706  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:38:20,707  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:38:20,726  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:38:20,735  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:38:20,766  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:38:20,772  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:38:20,804  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:38:20,809  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:38:20,809  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:38:20,822  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:38:20,930  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:38:20,935  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:38:20,935  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:38:20,960  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:39:18,144  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:39:18,157  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:39:18,204  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:39:18,212  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:39:18,248  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:39:18,252  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:39:18,260  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:39:18,273  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:39:18,307  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:39:18,311  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:39:18,318  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:39:18,332  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:39:18,369  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:39:18,379  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:39:18,386  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:39:18,401  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:39:18,429  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:39:18,437  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:39:18,442  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:39:18,454  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:39:18,471  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:39:18,484  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 14:39:18,593  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:39:18,598  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:39:18,622  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:39:18,629  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 14:39:18,669  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:39:18,670  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:39:18,674  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 14:39:18,676  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 14:39:18,677  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 14:39:18,696  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:39:18,697  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:39:18,704  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:39:18,709  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:39:18,711  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:39:19,029  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:39:19,045  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:39:19,045  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:39:19,050  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:39:19,052  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:39:19,055  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:39:19,383  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:39:19,718  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:39:19,722  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:39:20,063  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:39:20,067  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:39:20,085  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:39:20,085  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:39:20,090  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:39:20,091  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:39:20,112  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:39:20,121  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:39:20,150  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:39:20,156  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:39:20,194  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:39:20,201  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:39:20,201  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:39:20,216  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:39:20,329  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:39:20,333  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:39:20,333  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:39:20,349  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:40:30,750  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:40:30,757  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:40:30,781  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:40:30,785  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:40:30,808  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:40:30,812  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:40:30,816  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:40:30,823  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:40:30,842  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:40:30,845  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:40:30,854  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:40:30,861  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:40:30,881  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:40:30,887  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:40:30,890  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:40:30,898  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:40:30,919  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:40:30,924  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:40:30,927  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:40:30,935  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:40:30,949  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:40:30,962  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 14:40:31,075  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:40:31,082  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:40:31,102  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:40:31,111  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 14:40:31,150  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:40:31,150  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:40:31,155  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 14:40:31,156  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 14:40:31,157  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 14:40:31,176  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:40:31,176  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:40:31,182  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:40:31,189  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:40:31,190  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:40:31,524  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:40:31,542  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:40:31,542  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:40:31,547  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:40:31,550  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:40:31,552  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:40:31,884  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:40:32,216  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:40:32,220  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:40:32,558  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:40:32,562  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:40:32,580  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:40:32,580  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:40:32,587  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:40:32,587  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:40:32,607  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:40:32,617  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:40:32,647  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:40:32,656  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:40:32,684  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:40:32,688  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:40:32,688  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:40:32,735  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:40:32,829  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:40:32,836  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:40:32,836  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:40:32,845  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:43:53,240  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:43:53,247  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:43:53,272  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:43:53,276  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:43:53,299  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:43:53,303  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:43:53,309  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:43:53,321  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:43:53,341  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:43:53,343  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:43:53,350  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:43:53,358  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:43:53,374  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:43:53,381  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:43:53,388  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:43:53,400  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:43:53,420  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:43:53,429  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:43:53,433  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:43:53,441  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:43:53,456  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:43:53,470  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 14:43:53,578  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:43:53,586  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:43:53,604  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:43:53,608  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 14:43:53,653  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:43:53,653  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:43:53,656  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 14:43:53,658  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 14:43:53,659  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 14:43:53,677  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:43:53,678  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:43:53,682  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:43:53,688  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:43:53,691  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:43:54,025  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:43:54,039  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:43:54,039  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:43:54,045  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:43:54,049  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:43:54,050  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:43:54,360  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:43:54,685  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:43:54,689  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:43:55,015  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:43:55,019  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:43:55,038  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:43:55,039  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:43:55,043  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:43:55,043  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:43:55,065  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:43:55,075  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:43:55,104  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:43:55,108  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:43:55,141  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:43:55,231  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:45:17,189  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:45:17,197  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:45:17,223  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:45:17,228  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:45:17,261  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:45:17,266  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:17,274  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:45:17,289  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:45:17,313  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:45:17,317  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:17,328  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:45:17,341  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:45:17,373  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:45:17,387  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:17,394  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:45:17,410  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:45:17,445  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:45:17,454  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:17,460  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:45:17,475  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:45:17,506  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:17,523  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:17,643  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:17,649  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:45:17,673  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:17,679  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 14:45:17,730  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:45:17,730  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:45:17,734  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 14:45:17,735  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 14:45:17,736  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 14:45:17,753  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:45:17,753  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:45:17,757  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:45:17,762  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:45:17,764  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:45:18,112  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:45:18,132  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:45:18,132  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:45:18,137  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:45:18,139  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:45:18,139  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:45:18,463  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:45:18,823  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:18,827  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:45:19,172  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:19,176  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:45:19,195  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:45:19,195  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:45:19,201  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:45:19,202  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:45:19,220  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:19,224  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:45:19,256  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:19,263  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:45:19,295  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:45:19,299  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:45:19,299  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:45:19,311  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:45:19,408  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:45:19,412  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:45:19,412  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:45:19,424  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:45:51,372  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:45:51,381  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:45:51,411  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:45:51,416  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:45:51,436  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:45:51,439  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:51,445  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:45:51,459  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:45:51,483  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:45:51,486  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:51,490  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:45:51,497  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:45:51,522  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:45:51,529  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:51,532  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:45:51,540  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:45:51,563  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:45:51,569  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:51,572  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:45:51,580  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:45:51,597  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:51,612  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:51,731  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:51,739  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:45:51,761  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:51,769  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 14:45:51,825  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:45:51,826  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:45:51,832  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 14:45:51,834  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 14:45:51,835  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 14:45:51,871  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:45:51,871  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:45:51,878  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:45:51,892  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:45:51,894  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:45:52,324  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:45:52,352  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:45:52,352  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:45:52,360  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:45:52,366  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:45:52,369  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:45:52,694  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:45:53,005  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:53,010  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:45:53,347  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:53,351  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:45:53,370  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:45:53,370  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:45:53,375  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:45:53,375  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:45:53,397  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:53,406  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:45:53,438  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:45:53,445  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:45:53,478  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:45:53,482  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:45:53,483  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:45:53,524  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:45:53,696  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:45:53,705  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:45:53,705  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:45:53,721  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:46:10,416  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:46:10,429  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:46:10,472  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:46:10,479  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:46:10,513  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:46:10,518  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:10,526  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:46:10,538  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:46:10,571  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:46:10,577  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:10,586  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:46:10,600  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:46:10,634  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:46:10,642  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:10,648  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:46:10,661  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:46:10,694  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:46:10,702  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:10,707  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:46:10,720  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:46:10,749  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:10,766  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:10,893  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:10,897  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:46:10,919  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:10,925  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 14:46:10,968  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:46:10,968  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:46:10,973  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 14:46:10,975  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 14:46:10,976  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 14:46:10,999  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:46:10,999  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:46:11,005  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:46:11,010  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:46:11,011  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:46:11,339  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:46:11,352  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:46:11,353  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:46:11,357  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:46:11,360  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:46:11,362  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:46:11,679  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:46:12,035  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:12,039  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:46:12,383  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:12,387  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:46:12,406  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:46:12,406  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:46:12,413  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:46:12,414  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:46:12,432  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:12,441  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:46:12,472  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:12,480  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:46:12,509  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:46:12,512  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:46:12,512  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:46:12,521  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:46:12,616  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:46:12,623  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:46:12,623  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:46:12,649  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:46:30,529  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:46:30,536  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:46:30,557  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:46:30,563  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:46:30,587  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:46:30,591  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:30,596  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:46:30,603  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:46:30,620  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:46:30,623  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:30,628  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:46:30,640  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:46:30,661  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:46:30,667  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:30,671  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:46:30,679  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:46:30,699  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:46:30,709  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:30,712  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:46:30,720  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:46:30,739  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:30,751  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:30,854  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:30,859  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:46:30,882  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:30,888  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 14:46:30,921  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:46:30,922  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:46:30,925  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 14:46:30,928  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 14:46:30,928  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 14:46:30,949  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:46:30,949  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:46:30,954  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:46:30,959  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:46:30,961  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:46:31,283  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:46:31,298  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:46:31,298  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:46:31,302  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:46:31,304  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:46:31,306  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:46:31,631  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:46:31,974  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:31,978  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:46:32,328  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:32,333  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:46:32,351  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:46:32,351  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:46:32,357  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:46:32,357  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:46:32,376  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:32,385  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:46:32,416  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:46:32,423  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:46:32,456  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:46:32,460  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:46:32,460  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:46:32,476  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:46:32,579  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:46:32,585  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:46:32,586  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:46:32,597  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:47:17,286  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:47:17,296  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:47:17,328  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:47:17,332  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:47:17,364  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:47:17,369  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:47:17,377  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:47:17,395  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:47:17,435  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:47:17,439  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:47:17,447  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:47:17,466  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:47:17,500  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:47:17,508  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:47:17,513  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:47:17,524  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:47:17,549  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:47:17,555  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:47:17,558  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:47:17,566  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:47:17,583  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:47:17,597  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 14:47:17,710  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:47:17,718  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:47:17,736  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:47:17,740  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 14:47:17,777  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:47:17,777  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:47:17,782  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 14:47:17,784  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 14:47:17,785  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 14:47:17,802  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:47:17,802  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:47:17,806  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:47:17,811  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:47:17,812  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:47:18,166  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:47:18,183  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:47:18,184  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:47:18,189  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:47:18,191  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:47:18,191  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:47:18,514  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:47:18,856  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:47:18,861  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:47:19,208  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:47:19,213  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:47:19,231  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:47:19,231  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:47:19,235  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:47:19,236  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:47:19,257  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:47:19,263  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:47:19,300  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:47:19,307  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:47:19,339  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:47:19,344  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:47:19,344  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:47:19,387  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:47:19,485  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:47:19,491  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:47:19,491  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:47:19,501  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:50:09,509  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:50:09,527  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:50:09,583  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:50:09,594  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:50:09,648  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:50:09,657  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:50:09,667  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:50:09,697  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:50:09,735  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:50:09,743  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:50:09,757  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:50:09,777  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:50:09,811  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:50:09,824  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:50:09,831  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:50:09,850  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:50:09,886  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:50:09,901  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:50:09,907  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:50:09,918  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:50:09,944  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:50:09,961  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 14:50:10,086  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:50:10,093  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:50:10,116  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:50:10,123  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 14:50:10,183  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:50:10,184  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:50:10,190  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 14:50:10,193  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 14:50:10,194  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 14:50:10,228  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:50:10,228  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:50:10,237  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:50:10,248  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:50:10,252  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:50:10,602  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:50:10,624  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:50:10,624  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:50:10,631  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:50:10,633  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:50:10,634  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:50:10,948  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:50:11,282  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:50:11,287  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:50:11,626  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:50:11,630  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:50:11,648  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:50:11,648  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:50:11,655  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:50:11,655  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:50:11,673  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:50:11,677  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:50:11,710  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:50:11,716  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:50:11,749  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:50:11,754  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:50:11,755  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:50:11,766  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:50:12,111  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:50:12,115  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:50:12,115  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:50:12,129  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:53:05,424  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:53:05,434  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:53:05,473  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:53:05,480  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:53:05,510  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:53:05,516  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:05,525  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:53:05,536  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:53:05,564  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:53:05,569  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:05,576  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:53:05,591  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:53:05,637  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:53:05,647  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:05,652  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:53:05,665  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:53:05,696  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:53:05,702  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:05,706  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:53:05,716  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:53:05,738  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:05,754  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:05,870  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:05,877  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:53:05,895  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:05,899  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 14:53:05,940  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:53:05,940  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:53:05,944  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 14:53:05,946  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 14:53:05,946  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 14:53:05,964  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:53:05,964  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:53:05,969  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:53:05,975  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:53:05,978  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:53:06,315  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:53:06,329  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:53:06,329  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:53:06,333  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:53:06,335  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:53:06,336  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:53:06,642  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:53:06,958  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:06,962  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:53:07,297  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:07,301  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:53:07,320  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:53:07,320  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:53:07,327  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:53:07,327  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:53:07,345  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:07,350  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:53:07,384  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:07,392  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:53:07,427  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:53:07,434  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:53:07,434  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:53:07,451  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:53:07,808  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:53:07,814  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:53:07,815  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:53:07,826  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:53:37,845  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:53:37,852  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:53:37,877  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:53:37,882  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:53:37,900  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:53:37,903  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:37,911  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:53:37,919  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:53:37,941  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:53:37,944  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:37,950  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:53:37,959  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:53:37,979  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:53:37,988  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:37,991  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:53:38,000  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:53:38,018  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:53:38,025  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:38,031  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:53:38,038  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:53:38,055  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:38,069  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:38,175  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:38,180  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:53:38,201  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:38,209  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 14:53:38,244  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:53:38,244  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:53:38,250  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 14:53:38,253  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 14:53:38,253  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 14:53:38,270  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:53:38,270  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:53:38,274  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:53:38,279  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:53:38,280  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:53:38,591  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:53:38,607  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:53:38,608  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:53:38,615  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:53:38,618  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:53:38,619  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:53:38,926  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:53:39,249  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:39,253  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:53:39,593  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:39,597  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:53:39,616  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:53:39,616  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:53:39,622  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:53:39,622  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:53:39,641  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:39,645  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:53:39,680  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:53:39,688  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:53:39,724  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:53:39,729  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:53:39,730  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:53:39,743  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:53:40,092  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:53:40,098  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:53:40,098  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:53:40,109  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:55:07,379  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:55:07,393  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:55:07,393  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:55:09,918  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-19 14:55:09,918  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-19 14:55:09,927  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:55:09,928  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:58:33,921  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:58:33,929  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:58:33,968  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:58:33,972  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:58:34,000  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:58:34,005  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:58:34,011  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:58:34,023  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:58:34,044  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:58:34,047  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:58:34,054  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:58:34,061  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:58:34,080  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:58:34,088  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:58:34,091  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:58:34,100  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:58:34,118  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:58:34,127  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:58:34,131  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:58:34,140  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 14:58:34,162  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:58:34,177  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 14:58:34,304  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:58:34,312  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:58:34,333  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:58:34,341  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 14:58:34,380  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:58:34,380  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:58:34,384  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 14:58:34,385  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 14:58:34,386  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 14:58:34,403  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:58:34,403  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:58:34,406  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:58:34,411  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:58:34,412  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:58:34,750  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:58:34,764  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:58:34,764  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:58:34,770  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:58:34,776  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:58:34,778  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:58:35,109  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:58:35,457  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:58:35,461  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:58:35,813  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:58:35,818  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:58:35,836  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:58:35,836  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:58:35,842  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:58:35,842  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:58:35,862  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:58:35,870  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:58:35,902  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:58:35,909  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:58:35,939  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:58:35,943  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:58:35,943  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:58:35,988  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:58:36,100  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:58:36,107  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:58:36,107  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:58:36,125  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 14:59:10,027  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:59:10,044  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 14:59:10,154  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:59:10,158  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:59:10,184  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:59:10,189  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 14:59:10,227  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:59:10,227  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:59:10,233  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 14:59:10,234  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 14:59:10,235  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 14:59:10,252  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:59:10,253  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:59:10,257  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:59:10,262  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:59:10,264  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:59:10,598  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:59:10,611  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:59:10,612  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:59:10,617  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:59:10,619  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:59:10,620  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:59:10,943  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:59:11,287  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:59:11,291  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:59:11,648  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:59:11,653  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:59:11,672  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:59:11,672  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:59:11,679  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:59:11,679  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:59:11,698  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:59:11,706  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:59:11,735  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:59:11,743  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:59:55,486  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:59:55,713  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:59:55,930  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:59:56,097  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:59:56,277  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:59:56,396  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:59:56,536  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:59:56,549  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 14:59:56,662  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:59:56,669  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:59:56,686  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:59:56,690  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 14:59:56,727  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:59:56,727  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:59:56,732  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 14:59:56,734  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 14:59:56,735  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 14:59:56,752  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:59:56,752  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:59:56,756  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:59:56,760  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:59:56,761  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:59:57,103  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:59:57,117  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:59:57,117  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:59:57,126  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:59:57,127  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:59:57,128  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 14:59:57,460  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 14:59:57,820  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:59:57,825  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:59:58,189  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:59:58,194  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 14:59:58,214  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 14:59:58,215  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 14:59:58,220  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 14:59:58,220  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 14:59:58,238  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:59:58,241  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 14:59:58,272  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 14:59:58,277  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 14:59:58,316  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 14:59:58,469  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:03:11,994  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:03:12,004  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 15:03:12,036  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:03:12,041  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 15:03:12,065  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:03:12,068  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:03:12,074  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:03:12,086  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 15:03:12,107  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:03:12,111  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:03:12,115  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:03:12,122  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 15:03:12,145  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:03:12,152  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:03:12,157  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:03:12,167  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 15:03:12,185  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:03:12,190  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:03:12,194  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:03:12,206  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 15:03:12,223  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:03:12,235  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 15:03:12,339  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:03:12,347  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:03:12,364  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:03:12,368  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 15:03:12,407  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 15:03:12,407  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 15:03:12,412  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 15:03:12,413  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 15:03:12,414  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 15:03:12,431  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 15:03:12,431  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 15:03:12,434  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 15:03:12,439  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 15:03:12,441  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 15:03:12,748  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 15:03:12,761  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 15:03:12,762  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 15:03:12,768  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 15:03:12,771  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 15:03:12,772  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 15:03:13,068  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 15:03:13,382  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:03:13,387  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:03:13,713  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:03:13,717  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:03:13,738  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 15:03:13,738  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 15:03:13,744  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 15:03:13,744  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 15:03:13,762  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:03:13,766  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 15:03:13,799  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:03:13,804  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 15:03:13,834  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:03:13,838  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 15:03:13,838  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 15:03:13,883  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 15:03:13,972  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:03:13,979  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 15:03:13,979  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 15:03:13,993  dev  WARNING: Форма добавления пиццы не валидна
+Режим DEBUG: 2021-05-19 15:06:51,798  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:06:51,808  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 15:06:51,839  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:06:51,844  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 15:06:51,875  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:06:51,879  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:06:51,887  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:06:51,897  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 15:06:51,928  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:06:51,933  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:06:51,941  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:06:51,953  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 15:06:51,985  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:06:51,994  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:06:51,999  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:06:52,013  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 15:06:52,045  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:06:52,054  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:06:52,059  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:06:52,074  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 15:06:52,103  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:06:52,122  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 15:06:52,302  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:06:52,312  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:06:52,354  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:06:52,363  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 15:06:52,443  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 15:06:52,443  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 15:06:52,447  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 15:06:52,450  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 15:06:52,451  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 15:06:52,490  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 15:06:52,490  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 15:06:52,506  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 15:06:52,518  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 15:06:52,521  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 15:06:52,884  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 15:06:52,896  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 15:06:52,897  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 15:06:52,902  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 15:06:52,907  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 15:06:52,908  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 15:06:53,199  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 15:06:53,504  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:06:53,508  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:06:53,829  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:06:53,833  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:06:53,852  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 15:06:53,852  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 15:06:53,856  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 15:06:53,857  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 15:06:53,878  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:06:53,886  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 15:06:53,915  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:06:53,920  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 15:06:53,954  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:06:53,957  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 15:06:53,957  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 15:06:53,999  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:06:54,014  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:06:54,018  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 15:06:54,018  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 15:06:54,040  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:07:38,257  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:07:38,264  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 15:07:38,292  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:07:38,296  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 15:07:38,323  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:07:38,326  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:07:38,333  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:07:38,344  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 15:07:38,369  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:07:38,373  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:07:38,379  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:07:38,386  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 15:07:38,405  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:07:38,411  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:07:38,416  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:07:38,429  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 15:07:38,452  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:07:38,458  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:07:38,461  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:07:38,469  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-19 15:07:38,484  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:07:38,497  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-19 15:07:38,619  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:07:38,625  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:07:38,652  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:07:38,662  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-19 15:07:38,727  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 15:07:38,728  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 15:07:38,734  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-19 15:07:38,737  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-19 15:07:38,738  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-19 15:07:38,772  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 15:07:38,773  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 15:07:38,780  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 15:07:38,788  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 15:07:38,790  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 15:07:39,217  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 15:07:39,239  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 15:07:39,239  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 15:07:39,250  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-19 15:07:39,252  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-19 15:07:39,254  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-19 15:07:39,573  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-19 15:07:39,895  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:07:39,899  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:07:40,231  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:07:40,235  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-19 15:07:40,254  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 15:07:40,255  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 15:07:40,260  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-19 15:07:40,260  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-19 15:07:40,281  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:07:40,289  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-19 15:07:40,317  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-19 15:07:40,321  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-19 15:07:40,354  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:07:40,358  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 15:07:40,358  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 15:07:40,408  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:07:40,430  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-19 15:07:40,435  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-19 15:07:40,435  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-19 15:07:40,457  dev  INFO: Сохранение нового продукта

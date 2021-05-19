@@ -1,6 +1,6 @@
 from django import forms
 from django.contrib.auth.models import User
-from .models import Order
+from .models import Order, PizzaProduct
 from .custom_logging import logger
 
 class OrderForm(forms.ModelForm):
@@ -99,5 +99,74 @@ class RegistrationForm(forms.ModelForm):
     class Meta:
         model = User
         fields = ['username', 'password', 'confirm_password', 'first_name', 'last_name', 'address', 'phone', 'email']
+
+
+class PizzaAddForm(forms.ModelForm):
+
+
+    title = forms.CharField(max_length=255)
+    slug = forms.SlugField()
+    image = forms.ImageField(allow_empty_file=True, required=False)
+    description = forms.CharField()
+    price = forms.DecimalField(max_digits=9, decimal_places=2)
+    size = forms.CharField(max_length=255)
+    board = forms.CharField(max_length=255)
+    dough = forms.CharField(max_length=255)
+    vegetarian = forms.BooleanField()
+
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.fields['title'].label = "Наименование"
+        self.fields["slug"].label = "Slug"
+        self.fields['image'].label = "Изображение"
+        self.fields["description"].label = "Описание"
+        self.fields['price'].label = "Цена"
+        self.fields["size"].label = "Размер"
+        self.fields['board'].label = "Борт"
+        self.fields['dough'].label = "Тесто"
+        self.fields['vegetarian'].label = "Вегетарианская"
+
+
+    class Meta:
+        model = PizzaProduct
+        fields = (
+            'title', 'slug', 'image', 'description', 'price', 'size', 'board', 'dough', 'vegetarian'
+        )
+
+
+class BeerAddForm(forms.ModelForm):
+
+
+    title = forms.CharField(max_length=255)
+    slug = forms.SlugField()
+    image = forms.ImageField()
+    description = forms.CharField()
+    price = forms.DecimalField(max_digits=9, decimal_places=2)
+    colour = forms.CharField(max_length=255)
+    alcohol_strength = forms.CharField(max_length=255) 
+    filtered = forms.CharField(max_length=255)
+    grade = forms.CharField(max_length=255)  
+
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.fields['title'].label = "Наименование"
+        self.fields["slug"].label = "Slug"
+        self.fields['image'].label = "Изображение"
+        self.fields["description"].label = "Описание"
+        self.fields['price'].label = "Цена"
+        self.fields["colour"].label = "Цвет"
+        self.fields['alcohol_strength'].label = "Крепость"
+        self.fields['filtered'].label = "Фильтрация"
+        self.fields['grade'].label = "Сорт"
+
+
+    class Meta:
+        model = PizzaProduct
+        fields = (
+            'title', 'slug', 'image', 'description', 'price', 'colour', 'alcohol_strength', 'filtered', 'grade'
+        )
+
 
         

@@ -4,7 +4,7 @@ from django.test import TestCase, RequestFactory
 from django.contrib.auth import get_user_model
 from django.core.files.uploadedfile import SimpleUploadedFile
 from .models import Category, PizzaProduct, CartProduct, Cart, Customer
-from .views import CategoryDetailView, CheckoutView, recalc_cart, AddToCartView, BaseView, DeleteFromCartView, ProfileView, LoginView
+from .views import CategoryDetailView, CheckoutView, recalc_cart, AddToCartView, BaseView, DeleteFromCartView, ProfileView, LoginView, BeerAddView, PizzaAddView
 from PIL import Image
 from django.core.files.base import File
 from io import BytesIO
@@ -169,6 +169,43 @@ def test_categorydetail_view(category):
     c = Client()
     response = c.get('/category/pizza/')
     assert response.status_code == 200
+
+
+def test_beeradd_get_view(user):
+        factory = RequestFactory()
+        request = factory.get('')
+        request.user = user
+        response = BeerAddView.as_view()(request)
+        assert response.status_code == 200
+
+
+def test_pizzaadd_get_view(user):
+        factory = RequestFactory()
+        request = factory.get('')
+        request.user = user
+        response = PizzaAddView.as_view()(request)
+        assert response.status_code == 200
+
+
+@pytest.mark.parametrize("expected", [302, '/category/pizza/'])
+def test_pizzaadd_post_view(db, expected, category, pizzaproduct, get_image_file1,):
+    c = Client()
+    image = get_image_file1
+    image.seek(0)
+    response = c.post('/pizza_add/', {
+        'title':  'Новая',
+        'slug' : 'new_slug',
+        'image':image,
+        'description' : 'some',
+        'price' : Decimal("100.0"),
+        'size' : '54sm',
+        'board' : 'without',
+        'dough' : 'Тонкое',
+        'vegetarian' : True
+    })
+    print(response.url)
+    assert response.status_code, response.url == expected
+
 
 
 

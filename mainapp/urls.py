@@ -13,7 +13,9 @@ from .views import (
     PayedOnlineOrderView,
     LoginView,
     RegistrationView,
-    ProfileView
+    ProfileView,
+    PizzaAddView,
+    BeerAddView
 )
 
 urlpatterns = [
@@ -31,6 +33,9 @@ urlpatterns = [
     path('logout/', LogoutView.as_view(next_page="/"), name='logout'),
     path('registration/', RegistrationView.as_view(), name='registration'),
     path('profile/', ProfileView.as_view(), name='profile'),
+    path('pizza_add/', PizzaAddView.as_view(), name='pizza_add'),
+    path('beer_add/', BeerAddView.as_view(), name='beer_add'),
 ]
+
 
 
