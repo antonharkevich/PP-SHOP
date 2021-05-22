@@ -4404,3 +4404,1290 @@ Test_comment</textarea></td></tr>
 Режим DEBUG: 2021-05-19 15:07:40,435  dev  INFO: Использование CartMixin пользователем AnonymousUser
 Режим DEBUG: 2021-05-19 15:07:40,435  dev  WARNING: Покупатель не авторизирован
 Режим DEBUG: 2021-05-19 15:07:40,457  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-20 13:20:05,981  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-20 13:20:05,982  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-20 13:20:06,023  dev  INFO: Загрузка base_view пользователем AnonymousUser
+Режим DEBUG: 2021-05-20 13:20:42,733  dev  INFO: Использование ProductDetailView пользоватлем AnonymousUser
+Режим DEBUG: 2021-05-20 13:20:42,733  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-20 13:20:42,734  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-20 13:20:42,748  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-20 13:20:42,748  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-20 13:21:06,828  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-20 13:21:06,828  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-20 13:21:06,845  dev  INFO: Загрузка base_view пользователем AnonymousUser
+Режим DEBUG: 2021-05-20 13:21:12,936  dev  INFO: Использование ProductDetailView пользоватлем AnonymousUser
+Режим DEBUG: 2021-05-20 13:21:12,936  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-20 13:21:12,936  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-20 13:21:12,948  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-20 13:21:12,948  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-20 13:21:35,338  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-20 13:21:35,338  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-20 13:21:35,361  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-20 13:21:39,980  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-20 13:21:39,980  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-20 13:21:39,996  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-20 13:21:40,309  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-20 13:21:40,323  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-20 13:21:47,102  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-20 13:21:47,108  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-20 13:21:58,134  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-20 13:21:58,140  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-20 13:22:00,489  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-20 13:22:00,490  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-20 13:22:00,511  dev  INFO: Загрузка base_view пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 07:49:05,495  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-21 07:49:05,501  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-21 07:49:05,523  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-21 07:49:05,527  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-21 07:49:05,546  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-21 07:49:05,549  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-21 07:49:05,553  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-21 07:49:05,559  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-21 07:49:05,575  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-21 07:49:05,581  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-21 07:49:05,585  dev  INFO: Использование AddToCartView пользоватлем testuser
+Режим DEBUG: 2021-05-21 07:49:05,590  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-21 07:49:05,608  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-21 07:49:05,618  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-21 07:49:05,621  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-21 07:49:05,627  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-21 07:49:05,648  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-21 07:49:05,652  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-21 07:49:05,655  dev  INFO: Использование DeleteFromCartView пользоватлем testuser
+Режим DEBUG: 2021-05-21 07:49:05,661  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-21 07:49:05,674  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-21 07:49:05,687  dev  INFO: Загрузка base_view пользователем testuser
+Режим DEBUG: 2021-05-21 07:49:05,757  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-21 07:49:05,762  dev  INFO: Использование ProfileView пользоватлем testuser
+Режим DEBUG: 2021-05-21 07:49:05,780  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-21 07:49:05,786  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-21 07:49:05,816  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 07:49:05,816  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-21 07:49:05,819  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-21 07:49:05,821  dev  ERROR: Пользователь с логином admin не найден в системе.
+Режим DEBUG: 2021-05-21 07:49:05,822  dev  WARNING: Форма авторизации не валидна
+Режим DEBUG: 2021-05-21 07:49:05,841  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 07:49:05,841  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-21 07:49:05,845  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-21 07:49:05,848  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-21 07:49:05,849  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-21 07:49:06,112  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-21 07:49:06,126  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 07:49:06,126  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-21 07:49:06,131  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-21 07:49:06,133  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-21 07:49:06,134  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-21 07:49:06,415  dev  INFO: Зарегистрирован пользователь antonnn
+Режим DEBUG: 2021-05-21 07:49:06,695  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-21 07:49:06,699  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-21 07:49:06,986  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-21 07:49:06,990  dev  INFO: Использование MakeOrderView пользоватлем testuser
+Режим DEBUG: 2021-05-21 07:49:07,006  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 07:49:07,007  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-21 07:49:07,015  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 07:49:07,015  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 07:49:07,033  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-21 07:49:07,040  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-21 07:49:07,065  dev  INFO: Использование CartMixin пользователем testuser
+Режим DEBUG: 2021-05-21 07:49:07,070  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-21 07:49:07,100  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-21 07:49:07,103  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 07:49:07,103  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-21 07:49:07,138  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-21 07:49:07,152  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-21 07:49:07,158  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 07:49:07,158  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-21 07:49:07,167  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-21 19:46:55,685  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 19:46:55,685  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-21 19:46:55,715  dev  INFO: Загрузка base_view пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 19:48:15,917  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 19:48:15,917  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-21 19:48:15,932  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 19:48:15,933  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 19:48:17,254  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 19:48:17,254  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-21 19:48:17,271  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 19:48:17,271  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 19:48:18,329  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 19:48:18,330  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-21 19:48:18,357  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-21 19:48:23,439  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 19:48:23,439  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-21 19:48:23,451  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-21 19:48:23,772  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 19:48:23,784  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 19:48:25,836  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 19:48:25,842  dev  INFO: Использование AddToCartView пользоватлем admin
+Режим DEBUG: 2021-05-21 19:48:25,868  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-21 19:48:25,910  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 19:48:25,918  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 19:48:30,598  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 19:48:30,604  dev  INFO: Использование CheckOutView пользоватлем admin
+Режим DEBUG: 2021-05-21 19:48:37,809  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 19:48:37,826  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 19:48:39,944  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 19:48:39,952  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 19:48:43,642  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 19:48:43,649  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 19:48:53,900  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 19:48:53,907  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 19:48:53,908  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 19:48:55,446  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 19:48:55,457  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 19:49:00,387  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-21 19:49:00,387  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 19:49:00,406  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-21 19:49:00,406  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 19:49:39,122  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-21 19:49:39,123  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 19:49:39,129  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-21 19:49:39,129  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 19:50:12,259  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 19:50:12,266  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 19:50:12,266  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 19:50:13,058  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 19:50:13,062  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 19:50:15,201  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 19:50:15,210  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 19:50:17,323  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 19:50:17,332  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 19:50:18,487  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 19:50:18,493  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 20:23:51,387  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:23:51,420  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:25:13,611  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:25:13,718  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:26:48,850  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:26:48,890  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:26:50,808  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:26:50,834  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:26:55,465  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:26:55,484  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:30:40,961  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:30:40,984  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:32:15,965  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:32:15,984  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:32:50,409  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:32:50,426  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:33:09,744  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:33:09,764  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:33:11,922  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:33:11,940  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:33:28,357  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:33:28,377  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:33:29,388  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:33:29,409  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:33:44,263  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:33:44,281  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:33:44,972  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:33:44,990  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:34:21,840  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:34:21,870  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:34:44,225  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:34:44,242  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:35:54,663  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:35:54,689  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:35:56,662  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:35:56,681  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:35:57,192  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:35:57,207  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:37:13,568  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:37:13,588  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:37:14,504  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:37:14,528  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:39:22,479  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:39:22,496  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:39:24,519  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:39:24,537  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:39:25,102  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:39:25,126  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:40:55,137  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:40:55,155  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:40:56,141  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:40:56,161  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:41:19,934  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:41:19,953  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:41:52,070  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:41:52,116  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:43:45,839  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:43:45,858  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:44:25,813  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:44:25,832  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:44:33,205  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:44:33,216  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 20:46:02,739  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:46:02,787  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:48:41,642  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:48:41,672  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:49:19,413  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:49:19,455  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:50:56,545  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:50:56,588  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:50:58,684  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:50:58,700  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:50:59,133  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:50:59,148  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:52:59,944  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:52:59,964  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:53:02,455  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:53:02,473  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 20:53:04,504  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:53:04,511  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 20:59:32,067  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 20:59:32,114  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:02:46,372  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:02:46,413  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:04:07,841  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:04:07,860  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:09:22,406  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:09:22,451  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:10:05,004  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:10:05,024  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:11:09,972  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:11:09,990  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:12:29,776  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:12:29,793  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:12:30,621  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:12:30,639  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:12:41,346  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:12:41,363  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:12:47,544  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:12:47,566  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:13:09,229  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:13:09,248  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:19:34,961  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:19:35,000  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:20:51,169  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:20:51,186  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:26:19,783  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:26:19,797  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:27:07,903  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:27:07,921  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:27:09,022  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:27:09,040  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:27:09,919  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:27:09,939  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:27:34,587  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:27:34,607  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:27:37,232  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:27:37,249  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:27:37,714  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:27:37,758  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:27:52,428  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:27:52,510  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:28:46,143  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:28:46,256  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:29:17,549  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:29:17,569  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:29:23,802  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:29:23,820  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:29:40,473  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:29:40,493  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:30:52,405  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:30:52,423  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:31:28,818  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:31:28,842  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:31:47,900  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:31:47,921  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:31:49,103  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:31:49,121  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:32:03,613  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:32:03,630  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:32:12,786  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:32:12,791  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:33:20,815  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:33:20,833  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:33:27,466  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:33:27,476  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:33:41,378  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:33:41,386  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 21:33:41,386  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 21:33:45,929  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:33:45,936  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 21:33:45,937  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 21:33:47,171  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:33:47,179  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 21:33:47,179  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 21:34:10,942  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:34:10,951  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 21:34:10,951  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 21:34:43,135  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:34:43,146  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 21:34:43,146  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 21:34:44,316  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:34:44,324  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 21:34:44,324  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 21:34:50,525  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:34:50,536  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 21:34:50,536  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 21:34:57,711  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:34:57,721  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:35:01,666  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:35:01,677  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 21:35:01,677  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 21:35:03,053  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:35:03,063  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 21:35:03,064  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 21:35:05,970  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:35:05,981  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 21:35:05,981  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 21:35:07,335  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:35:07,341  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:36:05,770  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:36:05,777  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:36:24,669  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:36:24,686  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:37:24,081  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:37:24,088  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:37:30,718  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:37:30,726  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 21:37:30,726  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 21:38:39,654  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:38:39,662  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 21:38:39,663  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 21:38:59,637  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:38:59,646  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 21:38:59,646  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 21:39:03,234  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:39:03,240  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:40:55,346  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:40:55,363  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:41:02,035  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:41:02,036  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:41:02,048  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-21 21:41:02,048  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 21:42:36,305  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:42:36,313  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:44:24,508  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:44:24,515  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:45:02,162  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:45:02,171  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:45:38,632  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:45:38,638  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:45:46,852  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:45:46,858  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 21:45:46,858  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 21:45:47,836  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:45:47,836  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:45:47,843  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-21 21:45:47,843  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 21:45:50,764  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:45:50,772  dev  INFO: Использование AddToCartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:45:50,793  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-21 21:45:50,832  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:45:50,844  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:46:08,371  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:46:08,384  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 21:46:08,385  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 21:46:10,045  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:46:10,051  dev  INFO: Использование AddToCartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:46:10,074  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-21 21:46:10,110  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:46:10,124  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:46:35,261  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:46:35,269  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:46:49,252  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:46:49,259  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:47:13,398  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:47:13,405  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:47:21,793  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:47:21,799  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:47:55,106  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:47:55,113  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:48:00,555  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:48:00,561  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:48:05,918  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:48:05,925  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:48:11,644  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:48:11,653  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 21:48:11,653  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 21:48:14,285  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:48:14,309  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:50:09,656  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:50:09,667  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 21:50:09,667  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 21:50:17,972  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:50:17,978  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:50:20,585  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:50:20,592  dev  INFO: Использование CheckOutView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:50:56,000  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:50:56,005  dev  INFO: Использование CheckOutView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:51:29,464  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:51:29,468  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:58:30,497  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:58:30,506  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:59:18,295  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:59:18,302  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 21:59:21,589  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:59:21,596  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 21:59:21,596  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 21:59:27,535  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:59:27,553  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 21:59:49,026  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 21:59:49,050  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:00:00,955  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:00:00,978  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:00:26,792  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:00:26,813  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:00:28,732  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:00:28,752  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:00:29,800  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:00:29,820  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:00:38,589  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:00:38,609  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:00:59,208  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:00:59,230  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:03:08,559  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:03:08,580  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:03:39,045  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:03:39,061  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:04:29,269  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:04:29,287  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:05:28,887  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:05:28,910  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:05:43,360  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:05:43,377  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:05:55,933  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:05:55,949  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:32:27,571  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:32:27,592  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:35:08,324  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:35:08,349  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:35:16,626  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:35:16,647  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:35:36,590  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:35:36,611  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:35:49,634  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:35:49,653  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:36:19,051  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:36:19,073  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:36:40,353  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:36:40,376  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:37:09,898  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:37:09,918  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:37:21,944  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:37:21,953  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 22:37:29,686  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:37:29,692  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 22:37:36,731  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:37:36,739  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 22:37:36,740  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 22:37:42,102  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:37:42,112  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 22:37:42,113  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 22:37:47,252  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:37:47,258  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 22:37:55,302  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:37:55,308  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 22:37:58,816  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 22:37:58,816  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-21 22:37:58,840  dev  INFO: Загрузка base_view пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 22:38:00,657  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 22:38:00,657  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-21 22:38:00,672  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-21 22:38:02,564  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 22:38:02,564  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-21 22:38:02,581  dev  INFO: Использование RegistrationView
+Режим DEBUG: 2021-05-21 22:38:06,510  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 22:38:06,511  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-21 22:38:06,533  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 22:38:06,533  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 22:38:13,830  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 22:38:13,831  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-21 22:38:13,847  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 22:38:13,847  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 22:38:17,350  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 22:38:17,350  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-21 22:38:17,365  dev  INFO: Использование AddToCartView пользоватлем AnonymousUser
+Режим DEBUG: 2021-05-21 22:38:17,365  dev  WARNING: Пользователь не автоизован
+Режим DEBUG: 2021-05-21 22:38:17,376  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 22:38:17,377  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-21 22:38:17,392  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-21 22:38:22,825  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-21 22:38:22,826  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-21 22:38:22,846  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-21 22:38:23,198  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:38:23,209  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:38:34,659  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-21 22:38:34,660  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:38:34,673  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-21 22:38:34,674  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 22:38:47,766  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-21 22:38:47,766  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:38:47,776  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-21 22:38:47,777  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 22:38:50,958  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:38:50,973  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:39:24,448  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:39:24,473  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:39:25,521  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-21 22:39:25,521  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:39:25,534  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-21 22:39:25,534  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 22:39:28,494  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-21 22:39:28,494  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:39:28,508  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-21 22:39:28,508  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 22:40:03,685  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:40:03,705  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:40:47,631  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:40:47,653  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:41:11,864  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:41:11,900  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:41:20,518  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:41:20,539  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:41:30,737  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:41:30,757  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:41:44,681  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:41:44,700  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:41:59,565  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:41:59,584  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:42:02,227  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-21 22:42:02,228  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:42:02,249  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-21 22:42:02,250  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 22:42:05,377  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:42:05,384  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 22:42:05,384  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 22:42:08,132  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:42:08,141  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 22:42:08,141  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 22:42:14,719  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:42:14,725  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 22:42:22,260  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:42:22,269  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 22:42:22,269  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 22:42:23,573  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:42:23,580  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 22:42:29,839  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:42:29,847  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 22:42:31,785  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:42:31,797  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 22:42:33,576  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:42:33,584  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 22:42:33,585  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 22:42:34,876  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:42:34,899  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:45:17,751  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:45:17,759  dev  INFO: Использование AddToCartView пользоватлем admin
+Режим DEBUG: 2021-05-21 22:45:17,786  dev  INFO: Использование функции recalc_cart
+Режим DEBUG: 2021-05-21 22:45:17,827  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:45:17,838  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 22:45:25,486  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:45:25,498  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 22:45:26,555  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:45:26,562  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 22:45:27,439  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:45:27,448  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 22:45:29,570  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:45:29,580  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 22:45:29,580  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 22:45:32,149  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:45:32,170  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:47:20,000  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:47:20,032  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:48:31,740  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:48:31,761  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:50:05,692  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:50:05,711  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:50:44,389  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:50:44,408  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:52:42,488  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:52:42,510  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:55:17,246  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:55:17,270  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:55:49,017  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:55:49,039  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 22:56:47,561  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 22:56:47,579  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:00:54,870  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:00:54,876  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:00:56,438  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:00:56,445  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:00:59,121  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:00:59,127  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:01:25,107  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:01:25,115  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:01:31,809  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:01:31,820  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:01:47,922  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:01:47,941  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:02:09,680  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:02:09,729  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:02:16,877  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:02:16,884  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:02:21,865  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:02:21,878  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:02:26,881  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:02:26,892  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:02:26,892  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:02:33,979  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:02:33,995  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:02:41,817  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:02:41,874  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:03:01,345  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:03:01,370  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:03:05,780  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:03:05,799  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:03:19,308  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:03:19,361  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:03:24,217  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:03:24,234  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:03:26,723  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:03:26,730  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:03:26,731  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:04:17,422  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:04:17,434  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:04:17,434  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:04:42,854  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:04:42,867  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:04:42,868  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:04:52,375  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:04:52,383  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:04:52,383  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:05:36,295  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:05:36,306  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:05:36,306  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:05:39,344  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:05:39,351  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:05:46,661  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:05:46,669  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:05:51,735  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:05:51,747  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:05:51,747  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:05:55,142  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:05:55,150  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:05:56,706  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:05:56,718  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:06:06,292  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:06:06,299  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:06:06,300  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:06:07,609  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:06:07,630  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:10:01,143  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:10:01,166  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:10:25,668  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:10:25,690  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:10:34,368  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:10:34,417  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:10:42,316  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:10:42,337  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:11:21,560  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:11:21,582  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:12:28,036  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:12:28,057  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:12:34,716  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:12:34,735  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:15:07,058  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:15:07,076  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:15:19,902  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:15:19,921  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:16:09,613  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:16:09,633  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:16:20,804  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:16:20,847  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:16:30,841  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:16:30,862  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:16:44,727  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:16:44,755  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:17:55,999  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:17:56,022  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:18:03,900  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:18:03,943  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:18:12,009  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:18:12,029  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:20:31,942  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:20:31,991  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:20:53,878  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:20:53,898  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:21:16,267  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:21:16,314  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:21:54,794  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:21:54,840  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:23:00,828  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:23:00,868  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:23:19,634  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:23:19,682  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:23:35,760  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:23:35,793  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:23:49,456  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:23:49,477  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:24:06,658  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:24:06,659  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:24:06,680  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:24:06,682  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:25:32,724  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:25:32,742  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:25:33,357  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:25:33,358  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:25:33,367  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:25:33,367  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:26:08,005  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:26:08,025  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:26:49,940  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:26:49,960  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:27:28,081  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:27:28,116  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:28:13,587  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:28:13,612  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:29:12,878  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:29:12,902  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:29:44,594  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:29:44,620  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:29:56,602  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:29:56,647  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:30:18,777  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:30:18,798  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:32:18,774  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:32:18,794  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:32:25,569  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:32:25,577  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:33:12,213  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:33:12,223  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:33:14,075  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:33:14,080  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:33:14,867  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:33:14,875  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:33:59,765  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:33:59,772  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:34:09,151  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:34:09,159  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:34:09,160  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:34:11,064  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:34:11,076  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:34:11,076  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:34:14,522  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:34:14,528  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-21 23:34:35,672  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:34:35,679  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:34:37,209  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:34:37,217  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:34:37,812  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:34:37,826  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:34:39,772  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:34:39,781  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:34:39,781  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:34:41,112  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:34:41,130  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:35:24,850  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:35:24,869  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:35:32,874  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:35:32,884  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:35:32,885  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:35:51,602  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:35:51,616  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:35:51,616  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:35:54,245  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:35:54,255  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:35:54,256  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:35:55,663  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:35:55,675  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:35:55,676  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:35:58,829  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:35:58,854  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:36:37,684  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:36:37,694  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:36:42,836  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:36:42,843  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:37:24,459  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:37:24,466  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:37:27,589  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:37:27,601  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:37:50,248  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:37:50,255  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:38:14,732  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:38:14,741  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:40:07,688  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:40:07,696  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:40:30,447  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:40:30,455  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:45:19,623  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:45:19,632  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:45:26,568  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:45:26,580  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:45:26,580  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:45:28,287  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:45:28,306  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:47:07,878  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:47:07,901  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:48:51,865  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:48:51,883  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:50:48,341  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:50:48,362  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:52:01,654  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:52:01,674  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:52:16,767  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:52:16,826  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:53:15,287  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:53:15,310  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:53:31,782  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:53:31,803  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:54:04,762  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:54:04,781  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:54:06,226  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:54:06,247  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:54:44,179  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:54:44,212  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:55:18,747  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:55:18,789  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:55:28,934  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:55:28,955  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:55:34,351  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:55:34,358  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:55:48,841  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:55:48,852  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:55:48,852  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:56:23,446  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:56:23,468  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:56:23,469  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:56:44,479  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:56:44,488  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:56:44,488  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:56:45,676  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:56:45,687  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:56:45,688  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:57:45,272  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:57:45,281  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:57:45,281  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:58:04,640  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:58:04,652  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:58:04,652  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:58:08,101  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:58:08,112  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:58:08,112  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:58:10,909  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:58:10,931  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:58:33,363  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:58:33,384  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:58:58,664  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:58:58,690  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-21 23:59:06,730  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:59:06,738  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:59:33,797  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:59:33,806  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-21 23:59:49,135  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:59:49,146  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-21 23:59:49,147  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-21 23:59:50,729  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-21 23:59:50,752  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:00:12,977  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:00:13,000  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:00:14,137  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:00:14,182  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:00:49,875  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:00:49,900  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:00:51,136  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:00:51,156  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:01:20,219  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:01:20,240  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:01:44,043  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:01:44,043  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-22 00:01:44,069  dev  INFO: Загрузка base_view пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:02:03,780  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:02:03,780  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-22 00:02:03,795  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-22 00:02:12,677  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:02:12,678  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-22 00:02:12,713  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-22 00:02:13,098  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:02:13,120  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:03:48,997  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:03:49,017  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:05:25,150  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:05:25,182  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:05:38,456  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:05:38,481  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:05:54,263  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:05:54,302  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:06:59,347  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:06:59,369  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:07:25,459  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:07:25,485  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:08:05,616  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:08:05,637  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:10:47,385  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:10:47,408  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:10:52,495  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:10:52,504  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:10:57,509  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:10:57,518  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:11:11,090  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:11:11,098  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:11:15,355  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:11:15,368  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:11:15,368  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:11:50,499  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:11:50,523  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:11:50,524  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:11:57,039  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:11:57,053  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:12:07,230  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:12:07,238  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:12:28,025  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:12:28,035  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:12:54,795  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:12:54,818  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:12:56,895  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:12:56,914  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:13:15,012  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:13:15,020  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:13:15,021  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:13:18,581  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:13:18,591  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:13:23,592  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:13:23,592  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-22 00:13:23,628  dev  INFO: Загрузка base_view пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:13:27,476  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:13:27,477  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-22 00:13:27,493  dev  INFO: Использование RegistrationView
+Режим DEBUG: 2021-05-22 00:13:32,702  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:13:32,703  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-22 00:13:32,730  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-22 00:13:38,640  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:13:38,640  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-22 00:13:38,648  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-22 00:13:38,971  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:13:38,979  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:13:43,769  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:13:43,781  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:13:53,533  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:13:53,543  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:13:55,300  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:13:55,314  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:18:41,095  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:18:41,114  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:19:54,901  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:19:54,950  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:20:24,759  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:20:24,777  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:20:54,214  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:20:54,235  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:22:53,006  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:22:53,036  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:23:12,246  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:23:12,265  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:23:23,019  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:23:23,039  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:29:11,890  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:29:11,912  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:29:33,415  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:29:33,435  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:29:35,942  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:29:35,963  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:29:50,270  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:29:50,318  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:33:09,926  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:33:09,947  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:34:28,102  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:34:28,122  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:34:39,467  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:34:39,487  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:34:50,206  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:34:50,227  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:35:04,663  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:35:04,685  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:35:20,190  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:35:20,200  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:35:20,201  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:35:22,475  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:35:22,483  dev  INFO: Использование BeerAddView
+Режим DEBUG: 2021-05-22 00:35:53,397  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:35:53,493  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-22 00:35:53,527  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:35:53,537  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:35:53,537  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:35:58,435  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:35:58,457  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:38:04,138  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:38:04,160  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:38:08,847  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:38:08,848  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:38:08,874  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:38:08,875  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:38:49,271  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:38:49,290  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:39:08,122  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:39:08,122  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:39:08,143  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:39:08,144  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:39:58,593  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:39:58,612  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:40:21,087  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:40:21,105  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:40:30,545  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:40:30,597  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:40:39,921  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:40:39,968  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:40:55,125  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:40:55,144  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:41:06,268  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:41:06,287  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:41:08,350  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:41:08,373  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:41:13,350  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:41:13,400  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:41:24,626  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:41:24,645  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:41:26,604  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:41:26,605  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:41:26,617  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:41:26,618  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:41:41,780  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:41:41,803  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:42:07,059  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:42:07,080  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:42:08,190  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:42:08,191  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:42:08,211  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:42:08,212  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:42:28,443  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:42:28,443  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-22 00:42:28,469  dev  INFO: Загрузка base_view пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:42:30,952  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:42:30,953  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-22 00:42:30,965  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-22 00:42:37,386  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:42:37,387  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-22 00:42:37,399  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-22 00:42:37,740  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:42:37,750  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:42:43,071  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:42:43,081  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:42:43,081  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:42:50,374  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:42:50,385  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:42:50,385  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:42:55,054  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:42:55,063  dev  INFO: Использование PizzaAddView
+Режим DEBUG: 2021-05-22 00:43:07,214  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:43:07,243  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:43:11,249  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:43:11,260  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:43:11,260  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:43:13,421  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:43:13,430  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:43:13,430  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:45:16,486  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:45:16,486  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:45:16,498  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:45:16,498  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:45:30,009  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:45:30,036  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:45:31,935  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:45:31,936  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:45:31,965  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:45:31,966  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:45:37,233  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:45:37,269  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:45:47,468  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:45:47,477  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:45:47,478  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:47:34,309  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:47:34,318  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:47:34,318  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:47:41,813  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:47:41,823  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:47:41,823  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:47:47,052  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:47:47,066  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:47:47,066  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:50:49,398  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:50:49,409  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:50:49,409  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:50:58,535  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:50:58,549  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:50:58,550  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:51:06,073  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:51:06,073  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:51:06,083  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:51:06,083  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:51:15,083  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:51:15,096  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:51:15,096  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:51:27,879  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:51:27,888  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:51:27,889  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:51:29,980  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:51:29,987  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:51:29,988  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:51:40,175  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:51:40,184  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:51:40,185  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:51:49,681  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:51:49,693  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:51:49,693  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:51:56,335  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:51:56,346  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:51:56,346  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:51:58,510  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:51:58,520  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 00:51:58,520  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 00:52:02,218  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:52:02,240  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:52:14,559  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:52:14,568  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:52:23,860  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:52:23,868  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:53:21,213  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:53:21,222  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:53:30,062  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:53:30,069  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:53:33,328  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:53:33,337  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:53:51,088  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:53:51,089  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-22 00:53:51,127  dev  INFO: Загрузка base_view пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:53:53,047  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:53:53,047  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-22 00:53:53,063  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-22 00:54:01,771  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:54:01,771  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-22 00:54:01,787  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-22 00:54:02,158  dev  INFO: Использование CartMixin пользователем Ivanoov
+Режим DEBUG: 2021-05-22 00:54:02,170  dev  INFO: Загрузка base_view пользователем Ivanoov
+Режим DEBUG: 2021-05-22 00:54:03,295  dev  INFO: Использование CartMixin пользователем Ivanoov
+Режим DEBUG: 2021-05-22 00:54:03,306  dev  INFO: Использование ProfileView пользоватлем Ivanoov
+Режим DEBUG: 2021-05-22 00:54:20,432  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:54:20,432  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-22 00:54:20,454  dev  INFO: Загрузка base_view пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:54:21,386  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:54:21,386  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-22 00:54:21,398  dev  INFO: Использование RegistrationView
+Режим DEBUG: 2021-05-22 00:54:34,775  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:54:34,775  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-22 00:54:34,793  dev  INFO: Проверка логина при регистрации пользователя
+Режим DEBUG: 2021-05-22 00:54:34,802  dev  INFO: Проверка почты при регистрации пользователя
+Режим DEBUG: 2021-05-22 00:54:34,805  dev  INFO: Проверка пароля при регистрации пользователя
+Режим DEBUG: 2021-05-22 00:54:35,148  dev  INFO: Зарегистрирован пользователь 123
+Режим DEBUG: 2021-05-22 00:54:35,165  dev  INFO: Использование CartMixin пользователем 123
+Режим DEBUG: 2021-05-22 00:54:35,191  dev  INFO: Загрузка base_view пользователем 123
+Режим DEBUG: 2021-05-22 00:54:37,524  dev  INFO: Использование CartMixin пользователем 123
+Режим DEBUG: 2021-05-22 00:54:37,533  dev  INFO: Использование ProfileView пользоватлем 123
+Режим DEBUG: 2021-05-22 00:55:18,584  dev  INFO: Использование CartMixin пользователем 123
+Режим DEBUG: 2021-05-22 00:55:18,592  dev  INFO: Использование ProfileView пользоватлем 123
+Режим DEBUG: 2021-05-22 00:55:21,605  dev  INFO: Использование CartMixin пользователем 123
+Режим DEBUG: 2021-05-22 00:55:21,624  dev  INFO: Загрузка base_view пользователем 123
+Режим DEBUG: 2021-05-22 00:55:25,188  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:55:25,188  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-22 00:55:25,211  dev  INFO: Загрузка base_view пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:55:26,157  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:55:26,158  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-22 00:55:26,176  dev  INFO: Использование LoginView
+Режим DEBUG: 2021-05-22 00:55:30,447  dev  INFO: Использование CartMixin пользователем AnonymousUser
+Режим DEBUG: 2021-05-22 00:55:30,447  dev  WARNING: Покупатель не авторизирован
+Режим DEBUG: 2021-05-22 00:55:30,458  dev  INFO: Проверка авторизации пользователя
+Режим DEBUG: 2021-05-22 00:55:30,782  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:55:30,791  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 00:55:32,695  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:55:32,701  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:56:14,049  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:56:14,055  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:56:37,724  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:56:37,731  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:57:28,612  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:57:28,621  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-22 00:58:42,481  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 00:58:42,488  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:00:37,280  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-22 01:00:46,676  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:00:46,696  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 01:00:53,377  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:00:53,384  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:01:15,603  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:01:15,612  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 01:01:15,612  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 01:01:24,160  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:01:24,169  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 01:01:24,169  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 01:01:26,815  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:01:26,833  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 01:01:26,833  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 01:01:29,266  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:01:29,281  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 01:02:09,642  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-22 01:02:11,801  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:02:11,817  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 01:02:18,279  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:02:18,291  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 01:02:18,291  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 01:02:22,259  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:02:22,272  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 01:02:23,074  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:02:23,081  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:02:35,962  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:02:35,983  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 01:03:07,783  dev  INFO: Сохранение нового продукта
+Режим DEBUG: 2021-05-22 01:03:09,737  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:03:09,780  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 01:03:17,154  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:03:17,166  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 01:03:17,166  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 01:03:38,259  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:03:38,269  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 01:03:38,270  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 01:03:48,082  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:03:48,093  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 01:03:48,095  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 01:03:58,578  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:03:58,584  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:04:11,814  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:04:11,822  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:05:26,680  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:05:26,689  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:05:32,884  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:05:32,890  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:05:40,362  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:05:40,369  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:05:56,912  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:05:56,922  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:06:14,055  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:06:14,063  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:06:37,879  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:06:37,887  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:06:49,295  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:06:49,304  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:06:56,323  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:06:56,346  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 01:07:12,740  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:07:12,749  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:07:15,532  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:07:15,546  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:07:18,785  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:07:18,791  dev  INFO: Использование CheckOutView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:08:10,215  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:08:10,226  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:09:02,164  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:09:02,171  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:09:05,586  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:09:05,601  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 01:09:05,601  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 01:09:06,647  dev  INFO: Использование ProductDetailView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:09:06,647  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:09:06,654  dev  INFO: Использование ProductDetailView get_context_data
+Режим DEBUG: 2021-05-22 01:09:06,654  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 01:09:08,900  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:09:08,907  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:09:10,871  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:09:10,880  dev  INFO: Использование CheckOutView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:09:36,560  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:09:36,568  dev  INFO: Использование CheckOutView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:10:04,518  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:10:04,526  dev  INFO: Использование CheckOutView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:10:07,973  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:10:07,980  dev  INFO: Использование CheckOutView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:10:18,041  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:10:18,049  dev  INFO: Использование CheckOutView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:11:58,798  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:11:58,818  dev  INFO: Загрузка base_view пользователем admin
+Режим DEBUG: 2021-05-22 01:12:27,532  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:12:27,540  dev  INFO: Использование ProfileView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:12:42,774  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:12:42,781  dev  INFO: Использование CartView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:12:51,066  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:12:51,075  dev  INFO: Использование CheckOutView пользоватлем admin
+Режим DEBUG: 2021-05-22 01:13:47,758  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:13:47,767  dev  INFO: Использование CategoryDetailView get_context_data
+Режим DEBUG: 2021-05-22 01:13:47,767  dev  INFO: Использование CategoryDetailMixin
+Режим DEBUG: 2021-05-22 01:13:54,635  dev  INFO: Использование CartMixin пользователем admin
+Режим DEBUG: 2021-05-22 01:13:54,646  dev  INFO: Использование BeerAddView

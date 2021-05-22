@@ -8,6 +8,26 @@ from django.core.files.uploadedfile import InMemoryUploadedFile
 import sys
 
 
+class OrderInline(admin.TabularInline):
+    model = Order
+
+
+class CustomerAdmin(admin.ModelAdmin):
+    inlines = [
+        OrderInline
+    ]
+
+
+class CartProductInline(admin.TabularInline):
+    model = CartProduct
+
+
+class CartAdmin(admin.ModelAdmin):
+    inlines = [
+        CartProductInline
+    ]
+
+
 class AdminForm(ModelForm):
 
     def __init__(self, *args, **kwargs):
@@ -64,6 +84,6 @@ admin.site.register(Category)
 admin.site.register(PizzaProduct, PizzaAdmin)
 admin.site.register(BeerProduct, BeerAdmin)
 admin.site.register(CartProduct)
-admin.site.register(Cart)
-admin.site.register(Customer)
+admin.site.register(Cart, CartAdmin)
+admin.site.register(Customer, CustomerAdmin)
 admin.site.register(Order)

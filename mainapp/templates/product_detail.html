@@ -1,6 +1,38 @@
 {% extends 'base.html' %}
 {% load specifications %}
 {% block content %}
+<style>
+  table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  text-align: left;
+  border-collapse: collapse;
+  border-radius: 20px;
+  box-shadow: 0 0 0 10px #73b9e7;
+  color: #452F21;
+  }
+  th {
+  padding: 10px 8px;
+  background: white;
+  }
+  table th:first-child {
+  border-top-left-radius: 20px;
+  }
+  table th:last-child {
+  border-top-right-radius: 20px;
+  }
+  td {
+  border-top: 10px solid #F2906B;
+  padding: 8px;
+  background: white;
+  }
+  table td:first-child {
+  border-bottom-left-radius: 20px;
+  }
+  table td:last-child {
+  bord
+  
+  </style>
 <nav aria-label="breadcrumb" class="mt-3">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="{% url 'base' %}">Главная</a></li>

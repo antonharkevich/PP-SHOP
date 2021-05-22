@@ -2,6 +2,38 @@
 {% load crispy_forms_tags %}
 
 {% block content %}
+<style>
+  table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  text-align: left;
+  border-collapse: collapse;
+  border-radius: 20px;
+  box-shadow: 0 0 0 10px #73b9e7;
+  color: #452F21;
+  }
+  th {
+  padding: 10px 8px;
+  background: white;
+  }
+  table th:first-child {
+  border-top-left-radius: 20px;
+  }
+  table th:last-child {
+  border-top-right-radius: 20px;
+  }
+  td {
+  border-top: 10px solid #4781a3;
+  padding: 8px;
+  background: white;
+  }
+  table td:first-child {
+  border-bottom-left-radius: 20px;
+  }
+  table td:last-child {
+  bord
+  
+  </style>
 <h3 class="text-center mt-5 mb-5">Оформление заказа</h3>
 <table class="table">
     <thead>
@@ -17,7 +49,7 @@
       {% for item in cart.products.all %}
       <tr>
         <th scope="row">{{ item.content_object.title }}</th>
-        <td class="w-25"><img src="{{ item.content_object.image.url }}" class="img-fluid"></td>
+        <td class="w-25"><img width=250 height=270 src="{{ item.content_object.image.url }}" ></td>
         <td>{{ item.content_object.price }} руб.</td>
         <td>{{ item.qty }}</td>
         <td>{{ item.final_price }} руб.</td>

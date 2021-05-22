@@ -58,7 +58,7 @@ class BeerProductListAPIView(ListCreateAPIView):
     serializer_class = BeerProductSerializer
     queryset = BeerProduct.objects.all()
     filter_backends = [SearchFilter]
-    search_fields = ['id', 'title', 'price', 'grade']
+    search_fields = ['id', 'title']
 
 
 class BeerProductDetailAPIView(RetrieveAPIView, RetrieveUpdateAPIView, RetrieveDestroyAPIView):

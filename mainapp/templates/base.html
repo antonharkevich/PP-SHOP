@@ -3,7 +3,6 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -16,27 +15,94 @@
 
   <!-- Custom styles for this template -->
   <link href="css/shop-homepage.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="https://js.stripe.com/v3/"></script>
 
 </head>
 <style>
-    body {
+
+body {
         padding-top: 56px;
-    }
+        background: url(https://oir.mobi/uploads/posts/2021-03/thumbs/1616554304_34-p-nezhno-goluboi-fon-odnotonnii-37.png) 100% 100% no-repeat; 
+        background-size: cover; 
+
+}
+
+
+
+* {
+   box-sizing: border-box;
+}
+.product-item {
+   width: 215px;
+   text-align: center;
+   margin: 0 auto;
+   border-bottom: 2px solid #F5F5F5;
+   background: rgb(255, 255, 255);
+   font-family: "Open Sans";
+   transition: .3s ease-in;
+}
+.product-item:hover {
+   border-bottom: 2px solid #fc5a5a;
+}
+.product-item img {
+   display: block;
+   width: 100%;
+}
+.product-list {
+   background: hsl(0, 0%, 100%);
+   padding: 15px 0;
+}
+.product-list h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+.price {
+   font-size: 16px;
+   color: #fc5a5a;
+   display: block;
+   margin-bottom: 12px;
+}
+.button {
+   text-decoration: none;
+   display: inline-block;
+   padding: 0 12px;
+   background: #cccccc;
+   color: white;
+   text-transform: uppercase;
+   font-size: 12px;
+   line-height: 28px;
+   transition: .3s ease-in;
+}
+.product-item:hover .button {
+   background: #fc5a5a;
+}
+
+.colortext {
+     color: rgb(33, 139, 165);
+     text-align : center;
+  }
+
+
+
+
 </style>
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-blue bg-white fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Первая универсальная доставка по всей Беларуси</a>
+      <a class="navbar-brand" href="{% url 'base' %}">Первая универсальная доставка по всей Беларуси</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav">
           <li class="nav-item dropdown">
-              <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              <a class="nav-link text-blue dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                 data-toggle="dropdown" aria-haspopup="true" aria-expended="false">
                 Категории
               </a>
@@ -48,17 +114,17 @@
           </li>
           {% if not request.user.is_authenticated %}
           <li>
-            <a class="nav-link text-light" href="{% url 'login' %}">Авторизация</a>
+            <a class="nav-link text-blue" href="{% url 'login' %}">Авторизация</a>
           </li>
           <li>
-            <a class="nav-link text-light" href="{% url 'registration' %}">Регистрация</a>
+            <a class="nav-link text-blue" href="{% url 'registration' %}">Регистрация</a>
           </li>
           {% endif %}
            <li class="nav-item">
              {% if request.user.is_authenticated %}
-             <span class="navbar text text-light">Здравствуйте, <span class="badge badge-danger">
+             <span class="navbar text text-blue">Здравствуйте, <span class="badge badge-danger">
              <a style="text-decoration: none; font-size:14px; color:white;" href="{% url 'profile' %}">{{ request.user.username }}</a>
-            </span> | <a style="text-decoration: none; font-size:14px; color:white;" href="{% url 'logout' %}">Выйти</a></span>
+            </span> | <a style="text-decoration: none; font-size:14px; color:rgb(0, 153, 255);" href="{% url 'logout' %}">Выйти</a></span>
              {% endif %}
            </li>
         </ul>
@@ -70,24 +136,25 @@
       </div>
     </div>
   </nav>
-
+ 
   <!-- Page Content -->
+  
+  
   <div class="container">
-
-    <div class="row">
-
-      <div class="col-lg-3">
+    {% block content %}
+    <!-- <div class="row"> -->
+      <marquee direction="right" scrollamount="15"><img width="800" height="400" src="https://hotskidki.by/wp-content/uploads/2021/04/dominos27.04.21.jpg"/><img width="800" height="400" src="https://images.dominos.by/media/uploads/2021/03/24/__852432-min.png" /><img width="800" height="400" src="https://images.dominos.by/media/uploads/2020/10/28/___852432.png"/><img></marquee>
+      <!-- <div class="col-lg-3">
 
         <h1 class="my-4">Магазин ПиццаПиво</h1>
 
         <h1 class="my-4">Нашу пиццу заказывают знаменитости</h1>
         <img class="card-img-top" src="https://i.pinimg.com/736x/d1/bc/77/d1bc777133ef71eb26ca380f5a30cdc0.jpg">
-
-      </div>
+      </div> -->
       <!-- /.col-lg-3 -->
 
-      <div class="col-lg-9">
-        {% block content %}
+      <!-- <div class="col-lg-9"> -->
+   
         {% if messages %}
           {% for message in messages %}
           <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -98,7 +165,7 @@
           </div>
           {% endfor %}
         {% endif %}
-        <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+        <!-- <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -106,13 +173,13 @@
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-              <img class="d-block" width="500" height="400" src="https://i.pinimg.com/474x/50/0d/dc/500ddc9658d909c69a2e4dc020d7dcd6.jpg" alt="First slide">
+              <img class="d-block" width="800" height="400" src="https://i.pinimg.com/474x/50/0d/dc/500ddc9658d909c69a2e4dc020d7dcd6.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block" width="500" height="400" src="https://turboportal.net/uploads/posts/2014-04/1396941020__.jpg" alt="Second slide">
+              <img class="d-block" width="800" height="400" src="https://turboportal.net/uploads/posts/2014-04/1396941020__.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block" width="500" height="400" src="https://www.meme-arsenal.com/memes/b532a01e78fd8ac51909090252ccb049.jpg" alt="Third slide">
+              <img class="d-block" width="800" height="400" src="https://www.meme-arsenal.com/memes/b532a01e78fd8ac51909090252ccb049.jpg" alt="Third slide">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -123,12 +190,21 @@
             <span class="carousel-control-next-icon" aria-hidden="false"></span>
             <span class="sr-only">Next</span>
           </a>
-        </div>
+        </div> -->
+       
 
         <div class="row">
           {% for product in products %}
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
+       
+            <div class="product-item">
+              <a href="{{ product.get_absolute_url }}"><img width=250 height=250 src="{{ product.image.url }} "></a>
+              <div class="product-list">
+                <h3>{{ product.title }}</h3>
+                  <span class="price">{{ product.price }} руб.</span>
+                  <a href="{% url 'add_to_cart' ct_model=product.get_model_name slug=product.slug %}" class="button">В корзину</a>
+              </div>
+              </div>
+            <!-- <div class="card h-100">
               <a href="{{ product.get_absolute_url }}"><img class="card-img-top" src="{{ product.image.url }} " alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
@@ -137,27 +213,28 @@
                 <h5>{{ product.price }} руб.</h5>
                 <a href="{% url 'add_to_cart' ct_model=product.get_model_name slug=product.slug %}">
                   <button class="btn btn-danger">Добавить в корзину</button>
-                </a>
-              </div>
-          </div>
-          </div>
+                </a> -->
+              <!-- </div> -->
+            
+        
           {% endfor %}
         </div>
         <!-- /.row -->
+      
       {% endblock content %}
-      </div>
+      <!-- </div> -->
       <!-- /.col-lg-9 -->
 
-    </div>
+    <!-- </div> -->
     <!-- /.row -->
 
   </div>
   <!-- /.container -->
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
+  <footer class="py-5 bg-white">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; P-P SHOP (ВСЕ ПРАВА НА НАЗВАНИЕ ЗАЩИЩЕНЫ)</p>
+      <p class="colortext">Copyright &copy; P-P SHOP (ВСЕ ПРАВА НА НАЗВАНИЕ ЗАЩИЩЕНЫ)</p>
     </div>
     <!-- /.container -->
   </footer>
@@ -169,5 +246,6 @@
 </body>
 
 </html>
+
 
 
