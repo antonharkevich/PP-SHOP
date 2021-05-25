@@ -8,6 +8,7 @@ from django.contrib.contenttypes.models import ContentType
 from django.contrib import messages
 from django.views.generic import DetailView, View
 from django.http import HttpResponseRedirect, JsonResponse
+from django.views.generic import ListView
 
 from .models import PizzaProduct, BeerProduct, Category, LatestProducts, Customer, Cart, CartProduct, Order
 from .mixins import CategoryDetailMixin, CartMixin
@@ -197,7 +198,6 @@ class MakeOrderView(CartMixin, View):
             self.cart.save()
             new_order.cart = self.cart
             new_order.save()
-            customer.orders.add(new_order)
             messages.add_message(request, messages.INFO, "Спасибо за заказ! Мы с вами свяжемся!")
             return HttpResponseRedirect('/')
         logger.error('Форма заказа не валидна')
@@ -224,7 +224,6 @@ class PayedOnlineOrderView(CartMixin, View):
         new_order.cart = self.cart
         new_order.status = Order.STATUS_PAYED
         new_order.save()
-        customer.orders.add(new_order)
         return JsonResponse({"status": "payed"})
 
 
@@ -314,7 +313,6 @@ class PizzaAddView(CartMixin, View):
 
     def post(self, request, *args, **kwargs):
         form = PizzaAddForm(request.POST, request.FILES)
-        print(form)
         if form.is_valid():
             title = form.cleaned_data['title']
             slug = form.cleaned_data['slug']
@@ -412,3 +410,91 @@ class BeerAddView(CartMixin, View):
             logger.warning('Форма добавления пива не валидна')
         context = {'form': form,'cart': self.cart}
         return render(request, 'beer_add.html', context)
+
+
+class ProductUpgradeView(CartMixin, View):
+
+    def get(self, request, *args, **kwargs):
+        logger.info(f'Использование ProductUpgradeView')
+        ct_model, product_slug = kwargs.get('ct_model'), kwargs.get('slug')
+        content_type = ContentType.objects.get(model=ct_model)
+        product = content_type.model_class().objects.get(slug=product_slug)
+        if product.category.name == 'Пиво':
+            form = BeerAddForm(instance=product)
+        else:
+            form = PizzaAddForm(instance=product)
+        categories = Category.objects.get_categories_for_left_sidebar()
+        context = {'form': form, 'categories': categories, 'cart': self.cart}
+        return render(request, 'upgrade.html', context)
+
+    def post(self, request, *args, **kwargs):
+        ct_model, product_slug = kwargs.get('ct_model'), kwargs.get('slug')
+        content_type = ContentType.objects.get(model=ct_model)
+        product = content_type.model_class().objects.get(slug=product_slug)
+        if product.category.name == 'Пиво':
+            form = BeerAddForm(request.POST, request.FILES, instance=product)
+            if form.is_valid():
+                title = form.cleaned_data['title']
+                slug = form.cleaned_data['slug']
+                description = form.cleaned_data['description']
+                image = form.cleaned_data['image']
+                price = form.cleaned_data['price']
+                colour = form.cleaned_data['colour']
+                alcohol_strength = form.cleaned_data['alcohol_strength']
+                filtered = form.cleaned_data['filtered']
+                grade = form.cleaned_data['grade']
+                product.title = title
+                product.slug = slug
+                product.description = description
+                product.image = image
+                product.price = price
+                product.colour = colour
+                product.alcohol_strength = alcohol_strength
+                product.filtered = filtered
+                product.grade = grade
+                product.save()
+                return HttpResponseRedirect(f'/products/beerproduct/{product.slug}/')
+            else:
+                logger.warning('Форма редактирования пива не валидна')
+            context = {'form': form,'cart': self.cart}
+            return render(request, 'upgrade.html', context)
+        else:
+            form = PizzaAddForm(request.POST, request.FILES, instance=product)
+            if form.is_valid():
+                title = form.cleaned_data['title']
+                slug = form.cleaned_data['slug']
+                description = form.cleaned_data['description']
+                image = form.cleaned_data['image']
+                price = form.cleaned_data['price']
+                size = form.cleaned_data['size']
+                board = form.cleaned_data['board']
+                dough = form.cleaned_data['dough']
+                vegetarian = form.cleaned_data['vegetarian']
+                product.title = title
+                product.slug = slug
+                product.description = description
+                product.image = image
+                product.price = price
+                product.size = size
+                product.board = board
+                product.dough = dough
+                product.vegetarian = vegetarian
+                product.save()
+                return HttpResponseRedirect(f'/products/pizzaproduct/{product.slug}/')
+            else:
+                logger.warning('Форма редактирования пиццы не валидна')
+            context = {'form': form,'cart': self.cart}
+            return render(request, 'upgrade.html', context)
+
+
+class SearchResultsView(ListView):
+    template_name = 'search_results.html'
+ 
+    def get_queryset(self): 
+        query = self.request.GET.get('q')
+        object_list = []
+        beerproducts = BeerProduct.objects.filter(title__icontains=query)
+        pizzaproducts = PizzaProduct.objects.filter(title__icontains=query)
+        object_list.extend(beerproducts)
+        object_list.extend(pizzaproducts)
+        return object_list

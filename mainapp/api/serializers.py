@@ -80,7 +80,6 @@ class OrderSerializer(serializers.ModelSerializer):
 
 class CustomerSerializer(serializers.ModelSerializer):
 
-    orders = OrderSerializer(many=True)
     user = UserSerializer()
     
     class Meta:
@@ -90,7 +89,6 @@ class CustomerSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         logger.warning('Создание нового объекта customer через api')
         user_data = validated_data.pop('user')
-        orders_data = validated_data.pop('orders')
         user = User.objects.get(username=user_data["username"])
         customer = Customer.objects.create(user=user, **validated_data)
         return customer

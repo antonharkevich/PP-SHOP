@@ -57,5 +57,18 @@
     {{ product|product_spec }}
 
 </div>
+{% if request.user.is_staff %}
+    {% if product.category.name == 'Пиво' %}
+          <li>
+            <a class="nav-link" href="{% url 'upgrade' ct_model=ct_model slug=product.slug %}">Редактирование товара категории : {{ product.category.name }}</a>
+          </li>
+    {% else %}
+        <li>
+          <a class="nav-link" href="{% url 'upgrade' ct_model=ct_model slug=product.slug %}">Редактирование товара категории : {{ product.category.name }}</a>
+        </li>
+    {% endif %}
+{% endif %}
 
 {% endblock content %}
+
+

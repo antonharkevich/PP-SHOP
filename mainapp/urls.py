@@ -15,7 +15,9 @@ from .views import (
     RegistrationView,
     ProfileView,
     PizzaAddView,
-    BeerAddView
+    BeerAddView,
+    ProductUpgradeView,
+    SearchResultsView
 )
 
 urlpatterns = [
@@ -35,6 +37,8 @@ urlpatterns = [
     path('profile/', ProfileView.as_view(), name='profile'),
     path('pizza_add/', PizzaAddView.as_view(), name='pizza_add'),
     path('beer_add/', BeerAddView.as_view(), name='beer_add'),
+    path('upgrade/<str:ct_model>/<str:slug>/',ProductUpgradeView.as_view(), name='upgrade'),
+    path('search/', SearchResultsView.as_view(), name='search_results'),
 ]
 
 

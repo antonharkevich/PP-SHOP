@@ -13,6 +13,7 @@ class OrderInline(admin.TabularInline):
 
 
 class CustomerAdmin(admin.ModelAdmin):
+    
     inlines = [
         OrderInline
     ]
